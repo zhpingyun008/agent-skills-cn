@@ -1,0 +1,5201 @@
+[
+  {
+    "name": "hermes-version-upgrade",
+    "description": "Full lifecycle for upgrading Hermes Agent between versions — including post-upgrade feature enablement (Feishu native WS, Kanban, Curator and Proxy assessment, backup automation) and system diagnostics.",
+    "category": "devops",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/devops/hermes-version-upgrade"
+  },
+  {
+    "name": "docker-compose-manager",
+    "description": "Docker Compose全生命周期管理 — 多环境配置、服务编排、健康检查、日志聚合、卷管理、网络配置、生产就绪化改造。触发词：\"docker compose\"/\"docker-compose\"/\"compose管理\"/\"多容器编排\"/\"docker service\"。",
+    "category": "devops",
+    "triggers": [
+      "docker compose",
+      "docker-compose",
+      "compose管理",
+      "多容器编排",
+      "docker service",
+      "compose file",
+      "compose部署"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/docker-compose-manager"
+  },
+  {
+    "name": "system-cleanup",
+    "description": "系统清理优化checklist — 磁盘空间释放、缓存清理、日志轮转、临时文件、孤立依赖、陈旧内核清理、Docker资源回收、包管理器缓存。全面系统健康优化。",
+    "category": "devops",
+    "triggers": [
+      "系统清理",
+      "cleanup",
+      "清理磁盘",
+      "释放空间",
+      "磁盘空间不足",
+      "disk full",
+      "磁盘满了",
+      "优化系统",
+      "system cleanup",
+      "空间释放",
+      "cache clean",
+      "日志清理",
+      "docker清理",
+      "旧内核清理",
+      "system prune",
+      "清理缓存",
+      "disk cleanup"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/system-cleanup"
+  },
+  {
+    "name": "maestro-orchestrator",
+    "description": "多Agent工程指挥 — 本地优先的共享状态层，Mission(里程碑+断言+检查点+交接启动) + Task(日常阻塞器队列)。对标 ReinaMacCredy/maestro。触发词：\"maestro\"/\"编排\"/\"指挥\"/\"多agent\"/\"mission\"/\"handoff\"。",
+    "category": "devops",
+    "triggers": [
+      "maestro",
+      "编排",
+      "指挥",
+      "多agent",
+      "mission",
+      "handoff",
+      "共享状态"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/maestro-orchestrator"
+  },
+  {
+    "name": "bookstack-template-manager",
+    "description": "Create, update, and organize reusable document templates in BookStack's 📋 文档模板库 shelf. Covers creating template pages with placeholders/instructions under category books (项目管理模板/技术文档模板/会议纪要模板/需求规格模板等), managing template hierarchy, and converting real project pages into reusable templates.",
+    "category": "uncategorized",
+    "triggers": [
+      "保存为模板 / 创建模板 / 模板管理 / 文档模版",
+      "save as template / create template / template library / 项目管理模版",
+      "BookStack template / 文档模板库 / reusable template / 可复用模板",
+      "project template / 项目模板 / workload template / 工作量清单模板"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-template-manager"
+  },
+  {
+    "name": "bookstack-troubleshoot",
+    "description": "BookStack服务故障诊断与恢复 — PHP/Laravel错误排查、密码hash修复、PHP扩展加载修复、MariaDB重启、APP_DEBUG=false下的错误诊断。覆盖BookStack突然报\"An unknown error occurred\"时的全链路排查流程。",
+    "category": "devops",
+    "triggers": [
+      "bookstack error",
+      "An unknown error occurred",
+      "bookstack 报错",
+      "bookstack 无法登录",
+      "bookstack password",
+      "Bcrypt algorithm",
+      "This password does not use the Bcrypt algorithm",
+      "bookstack HTTP 500",
+      "bookstack 白屏",
+      "PHP extension loading",
+      "bookstack 登录失败",
+      "bookstack mysql",
+      "mariadb 重启",
+      "bookstack 500 error",
+      "unknown error bookstack",
+      "$2b$ hash",
+      "PHP pdo_mysql"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-troubleshoot"
+  },
+  {
+    "name": "terraform-manager",
+    "description": "Terraform基础设施管理 — 状态管理、plan/review、apply/rollback、模块管理、远程状态后端配置、workspace管理。触发词：\"terraform\"/\"tf\"/\"infra as code\"/\"terraform plan\"/\"terraform apply\"/\"state管理\"。",
+    "category": "devops",
+    "triggers": [
+      "terraform",
+      "tf",
+      "infra as code",
+      "terraform plan",
+      "terraform apply",
+      "terraform state",
+      "基础设施管理",
+      "terraform workspace",
+      "terraform module",
+      "生成Terraform",
+      "IaC",
+      "infrastructure as code",
+      "云资源配置"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/terraform-manager"
+  },
+  {
+    "name": "team-wiki-deploy",
+    "description": "Deploy a team documentation wiki (BookStack enterprise OR docsify lightweight) with structured IA directory layout, external platform sync (Feishu), and RAG ingestion for AI agent knowledge base.",
+    "category": "devops",
+    "triggers": [
+      "团队文档 / team wiki",
+      "部署文档平台 / deploy doc site",
+      "飞书同步 / Feishu sync",
+      "知识库接入 / knowledge base setup",
+      "docsify setup",
+      "bookstack / BookStack / 企业Wiki",
+      "内部文档平台 / internal documentation site",
+      "RAG摄入 / RAG ingestion",
+      "IA知识库 / IA knowledge base",
+      "docsify wiki",
+      "PHP部署 / PHP app deploy",
+      "MariaDB无root安装",
+      "Laravel部署",
+      "服务管理脚本 / service start script",
+      "启动脚本 / startup script",
+      "健康检查Cron / health check cron",
+      "自启恢复 / auto recovery",
+      "无systemd管理服务 / service without systemd",
+      "受限环境服务管理 / restricted env service mgmt",
+      "Laravel部署",
+      "BookStack宕机 / BookStack down / 服务重启",
+      "BookStack启动 / BookStack start",
+      "bookstack restart",
+      "socket假阳性 / stale socket",
+      "curl健康检查 / health check pattern",
+      "Cron自愈 / cron auto recovery",
+      "服务管理脚本 / service management script"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/team-wiki-deploy"
+  },
+  {
+    "name": "hermes-module-assessment",
+    "description": "Evaluate optional Hermes Agent modules (Curator, Proxy, Kanban, etc.) — understand purpose, relevance to current setup, installation status, blast radius, and safe dry-run testing before enabling in production.",
+    "category": "devops",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/devops/hermes-module-assessment"
+  },
+  {
+    "name": "incident-commander",
+    "description": "自主SRE事故指挥官 — 真实事故响应+混沌韧性演练双模式。检测→诊断→修复→验证→学习 全闭环。对标 Lethe044 hermes-incident-commander。触发词：\"incident\"/\"事故响应\"/\"SRE\"/\"service down\"/\"生产事故\"。",
+    "category": "devops",
+    "triggers": [
+      "incident",
+      "事故",
+      "SRE",
+      "service down",
+      "生产事故",
+      "outage",
+      "alert",
+      "故障",
+      "drill",
+      "演练",
+      "chaos drill",
+      "韧性演练",
+      "resilience test",
+      "改进项",
+      "待办改进",
+      "复盘执行",
+      "postmortem execution",
+      "improvement items",
+      "BookStack down",
+      "BookStack访问不了",
+      "bookstack修复",
+      "bookstack页面",
+      "bookstack样式",
+      "bookstack CSS",
+      "bookstack无样式",
+      "bookstack白板",
+      "bookstack session",
+      "bookstack 登录丢失",
+      "bookstack 踢回登录",
+      "自愈反杀",
+      "restart cascade",
+      "smart restart",
+      "cascade failure",
+      "经验教训",
+      "agent timeout",
+      "agent无响应",
+      "gateway timeout",
+      "Gateway health check",
+      "profile disconnected",
+      "failed to start",
+      "EADDRINUSE",
+      "health alert",
+      "health alert script",
+      "health-alert.sh",
+      "daily health report",
+      "daily-health-report",
+      "自动告警",
+      "主动巡检",
+      "健康报告",
+      "修复后监控",
+      "post-recovery",
+      "post-outage",
+      "hardening cycle",
+      "监控基建",
+      "端口不匹配",
+      "port mismatch",
+      "自愈脚本",
+      "self-heal",
+      "anti-degradation",
+      "health check port",
+      "SYSTEM_AUTO_REPAIR",
+      "自愈失败",
+      "auto-repair",
+      "记忆压缩",
+      "memory compression",
+      "SYSTEM_ALERT",
+      "健康告警",
+      "cron error",
+      "cron 报错",
+      "empty response",
+      "模型超时",
+      "provider timeout",
+      "token expired",
+      "key过期",
+      "credential expired",
+      "ZAI_API_KEY",
+      "401认证失败",
+      "credential pool exhaustion",
+      "凭据过期",
+      "credential_pool",
+      "all exhausted",
+      "no available entries",
+      "OOM",
+      "Out of memory",
+      "killed process",
+      "dmesg",
+      "memory pressure",
+      "oom_score_adj",
+      "OOM保护",
+      "zombie",
+      "僵尸进程",
+      "僵尸Gateway",
+      "HTTP 000",
+      "000响应",
+      "进程存活但无响应",
+      "进程活着但HTTP"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/incident-commander"
+  },
+  {
+    "name": "bash-boilerplate-extract",
+    "description": "Systematic extraction of shared Bash library from duplicated shell script boilerplate (logging, error handling, log rotation). Audits 3+ scripts → designs lib API → refactors → verifies.",
+    "category": "devops",
+    "triggers": [
+      "3+ shell/cron scripts with identical boilerplate (log dir creation, timestamp filenames, redirect patterns)",
+      "Need to add log rotation or retention policy to existing Bash scripts",
+      "Scripts using bare `set -e` without `-u` (undefined var protection) or `-o pipefail`",
+      "Cron/automation scripts with ad-hoc logging that needs standardization",
+      "User asks: 'standardize these shell scripts' / 'unify logging' / 'add log cleanup'",
+      "Reviewing a ~/.scripts directory and finding pattern repetition"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bash-boilerplate-extract"
+  },
+  {
+    "name": "bookstack-update-sync",
+    "description": "知识库更新自动同步 — 将重要更新/迭代/变更自动记录至BookStack更新日志页(页285)。支持技能变更、架构调整、运维变更、进化事件、服务状态、知识库更新六类。自动格式化日期/类型/摘要/详情链接并追加至更新日志表。",
+    "category": "devops",
+    "triggers": [
+      "记录更新",
+      "同步更新",
+      "更新日志",
+      "记录到知识库",
+      "sync update",
+      "知识库更新",
+      "bookstack update",
+      "changelog"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-update-sync"
+  },
+  {
+    "name": "bookstack-model-registry",
+    "description": "Full lifecycle for adding a new LLM model provider to Hermes Agent — API key setup, provider config, connectivity testing, model discovery/benchmarking, BookStack asset registry update, Feishu sync, and RAG ingestion.",
+    "category": "devops",
+    "triggers": [
+      "新增模型 / add model / new model provider",
+      "接入提供商 / integrate new provider / connect API",
+      "模型切换 / switch model / change model",
+      "更新模型版本 / update model version",
+      "模型路由变更 / model routing change",
+      "模型成本更新 / model cost update",
+      "更新模型资产库 / update model asset library",
+      "BookStack模型记录 / model registry",
+      "模型配置参考 / model config reference",
+      "飞书同步模型信息 / sync model info to Feishu",
+      "model asset maintenance",
+      "connect NVIDIA / connect Anthropic / connect any new LLM API",
+      "provider auth failure / provider 401 / API Key not recognized",
+      "NO env var / no-key-r...ired / provider credential not working",
+      "model not found / 找不到默认模型 / model name invalid",
+      "模型配置诊断 / diagnose model config / model name mismatch",
+      "模型名有后缀 / wrong model name / model API returned different ID"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-model-registry"
+  },
+  {
+    "name": "bookstack-mermaid-integration",
+    "description": "BookStack + Mermaid diagram rendering integration. Loads Mermaid CDN without auto-start, uses Blade template to extract Mermaid code from CodeMirror code blocks (.cm-line divs), renders via mermaid.render() API. Preserves original code for AI readability while displaying SVG rendered diagrams for humans.",
+    "category": "devops",
+    "triggers": [
+      "mermaid",
+      "bookstack diagram",
+      "渲染图表",
+      "BookStack图表",
+      "diagram rendering",
+      "流程图BookStack",
+      "mermaid not rendering",
+      "立项报告",
+      "项目图表",
+      "业务流程图",
+      "系统架构图",
+      "部署图",
+      "功能结构图",
+      "用例图",
+      "api-authoring",
+      "bookstack api mermaid",
+      "mermaid显示代码",
+      "mermaid空白",
+      "mermaid graph TD raw text",
+      "--&gt; mermaid",
+      "html entity mermaid",
+      "Mermaid在div中不渲染",
+      "bare div mermaid",
+      "Blade模板mermaid",
+      "Parse error on line 37",
+      "Expecting SEMI NEWLINE SPACE EOF subgr",
+      "F3 mermaid error",
+      "mermaid truncation",
+      "CodeMirror 36-line",
+      "mermaid diagram cut off",
+      "usecaseDiagram",
+      "PlantUML",
+      "用例图不显示",
+      "mermaid blank use case",
+      "usecase UC1",
+      "looksLikeMermaid",
+      "mermaid type detection",
+      "mermaid regex missing",
+      "F1[注册] F2[登录]",
+      "lxml mermaid collapse",
+      "beautifulsoup pre whitespace",
+      "multi-node declaration",
+      "多节点同行",
+      "Expecting SEMI NEWLINE bare node"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-mermaid-integration"
+  },
+  {
+    "name": "prompt-toolchain-deploy",
+    "description": "三插件Prompt工具链部署+增强 — PromptHub REST API + Dashboard集成 + PromptSync同步。全CMMI5合规。",
+    "category": "devops",
+    "triggers": [
+      "prompt工具链",
+      "PromptHub",
+      "PromptSync",
+      "prompt优化",
+      "提示词仓库",
+      "Prompt toolchain REST API",
+      "prompt管理页面",
+      "添加REST API到Flask",
+      "Dashboard集成新服务",
+      "prompt chain dashboard卡片",
+      "prompt工具链面板"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/prompt-toolchain-deploy"
+  },
+  {
+    "name": "agent-os-infrastructure",
+    "description": "AI Agent操作系统层建设 — Service Registry / API Gateway / Unified Portal / Web Terminal / Agent Cluster Monitor。在Agent CLI之上构建OS级基础设施。",
+    "category": "devops",
+    "triggers": [
+      "hermes os",
+      "agent os",
+      "service registry",
+      "service mesh",
+      "统一门户",
+      "unified portal",
+      "web terminal",
+      "agent monitor",
+      "api gateway agent",
+      "agent infrastructure",
+      "os layer",
+      "service registration",
+      "agent cluster",
+      "多agent管理面板"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/agent-os-infrastructure"
+  },
+  {
+    "name": "bookstack-kb-architecture",
+    "description": "Design and populate a structured BookStack knowledge base with thematic hierarchy (Shelf/Book/Chapter/Page), Mermaid diagrams (flowchart/gantt), and API-driven bulk content creation. Includes tri-directional sync setup with Feishu.",
+    "category": "devops",
+    "triggers": [
+      "知识库架构 / knowledge base architecture / design knowledge base",
+      "BookStack知识库设计 / BookStack content structure",
+      "创建知识库Shelf/Book/Chapter / create BookStack hierarchy",
+      "BookStack批量创建页面 / bulk create BookStack pages",
+      "知识库6大模块 / 6-module knowledge base",
+      "Mermaid图表嵌入BookStack / Mermaid in BookStack pages",
+      "知识库内容架构 / KB content architecture",
+      "Hermes专属知识库 / Hermes dedicated knowledge base",
+      "卡通视觉 / cartoon style / comic visual / BookStack styling",
+      "BookStack卡通主题 / BookStack cartoon theme",
+      "Mermaid多类型 / multi-type Mermaid / mindmap timeline pie",
+      "BookStack可视化增强 / visual enhancement BookStack",
+      "知识库配色方案 / knowledge base color scheme",
+      "Emoji页面命名 / emoji page naming convention",
+      "充实内容 / enrich content / deepen pages / content enrichment",
+      "薄页面充实 / stub page / thin page / content audit",
+      "批量更新BookStack / batch update page html / pymysql bulk update",
+      "知识库深度填充 / KB content deepening / content quality upgrade",
+      "BookStack内容质量 / BookStack content audit / page length analysis",
+      "创建编程语言学习知识库 / create programming language learning KB",
+      "学习知识库 / learning knowledge base / curriculum KB",
+      "学习路线图 / learning roadmap / study plan BookStack",
+      "零基础到就业 / zero to job / learning path",
+      "教程知识库 / tutorial knowledge base / educational KB",
+      "格式化代码 / format code / standardize code blocks / code style",
+      "代码片段标准化 / code block dark theme / 黑底白字",
+      "Batch code format in BookStack / BookStack代码高亮 / 行号",
+      "BookStack内容为空 / 页面空白 / 书架不显示 / 书架显示空 / 书架关联断裂 / shelf-book association broken / 全局CSS丢失",
+      "新建项目 / new project / project initiation / 项目立项",
+      "市场调研 / market research / 竞品分析 / competitive research",
+      "需求规格说明书 / SRS / software requirements",
+      "可行性分析 / feasibility study / project charter",
+      "项目归档 / project archive / CMMI5归档 / 知识库归档",
+      "全流程工程规范 / full lifecycle / CMMI5 project",
+      "海航 / 航空AI / AI购票 / AI ticket booking",
+      "并行创建页面 / parallel page creation / delegate_task BookStack / 多任务并发生成",
+      "CMMI5项目模板 / 8-book project / full lifecycle project / 项目全流程书架",
+      "批量上传BookStack / JSON batch upload / sanitize HTML / 控制字符处理",
+      "检查文档缺失 / audit missing docs / 补充完整 / fill gaps / 文档审计 / completeness audit",
+      "10-Agent交付物映射 / agent deliverable mapping / deliverable gap",
+      "文档完整性验证 / project shelf audit / 项目文档检查"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-kb-architecture"
+  },
+  {
+    "name": "bookstack-structured-import",
+    "description": "Import structured project data (workload tables, WBS, requirement lists, budget breakdowns, credential vaults) from user-provided text into BookStack as hierarchical project documentation pages with computed summary statistics. Also covers direct MySQL fallback when BookStack API is unavailable.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-structured-import"
+  },
+  {
+    "name": "dashboard-panel-builder",
+    "description": "Extend the Hermes Flask+HTMX Dashboard (localhost:5000) with new backend data providers and frontend panels. Covers the full CRUD cycle: backend module, API route, HTML+JS panel, /api/all integration, service restart.",
+    "category": "devops",
+    "triggers": [
+      "add X to Dashboard / create Dashboard panel / Dashboard面板",
+      "make Y visible on Dashboard / Dashboard显示Z",
+      "新增仪表板面板 / new dashboard card / dashboard section",
+      "Flask dashboard route / HTMX dashboard / backend module",
+      "pipeline visualization / skills inventory / dashboard数据源",
+      "dashboard扩展 / dashboard集成 / extend dashboard",
+      "api/all combined endpoint / 合并端点",
+      "30s poll / HTMX auto-refresh / dashboard轮询",
+      "cost optimization panel / 成本优化面板 / provider cost comparison",
+      "snapshot export / JSON download / 快照导出 / health snapshot",
+      "dashboard startup verification / smoke test"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/dashboard-panel-builder"
+  },
+  {
+    "name": "skill-bookstack-sync",
+    "description": "将 ~/.hermes/skills/ 下 SKILL.md 技能定义文件增量同步到 BookStack Skill技能库书架(shelf ID=2028)。按分类映射到对应Book，自动创建不存在的Book，使用 <pre> 包裹原始内容保留YAML frontmatter。",
+    "category": "devops",
+    "triggers": [
+      "同步技能到BookStack / sync skills to bookstack",
+      "SKILL.md同步 / skill bookstack sync",
+      "同步技能库 / sync skills to shelf",
+      "技能库BookStack同步",
+      "cron skill sync",
+      "skill_sync cron job"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/skill-bookstack-sync"
+  },
+  {
+    "name": "system-activation",
+    "description": "全面系统启动与健康验证 — 全维度自动激活：Cron/CMMI5管道/进化引擎/RL微调/知识图谱/记忆提取/Sprint编排器。覆盖\"启动\"/\"全面启动，自动化\"指令，包含多维度验证流程与已知陷阱修复。",
+    "category": "devops",
+    "triggers": [
+      "全面启动",
+      "启动",
+      "自动化",
+      "activate",
+      "full startup",
+      "system activation",
+      "全系统启动",
+      "全部启动",
+      "全面激活",
+      "全部上线",
+      "start everything",
+      "system up",
+      "上线所有",
+      "启动所有",
+      "hermes os",
+      "os升级",
+      "服务注册",
+      "os架构",
+      "os infrastructure"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/system-activation"
+  },
+  {
+    "name": "trae-integration",
+    "description": "Trae IDE ↔ Hermes Agent 双向桥接 — MCP互通 + CLI互调 + 工作区共享。Trae v3.3.65已安装于Windows，Hermes在WSL。",
+    "category": "devops",
+    "triggers": [
+      "trae",
+      "打通trae",
+      "trae集成",
+      "trae ide"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/trae-integration"
+  },
+  {
+    "name": "sprint-orchestrator",
+    "description": "连续Sprint编排器 — 自动从Backlog提取任务→计划→并行执行→质量门禁→反馈→下一轮。支撑24/7全自主项目推进。",
+    "category": "devops",
+    "triggers": [
+      "sprint",
+      "sprint orchestrator",
+      "连续执行",
+      "不停歇",
+      "全自主推进",
+      "持续Sprint",
+      "backlog",
+      "backlog管理",
+      "工作任务",
+      "自动推进",
+      "sprint cycle",
+      "自主工作不停歇",
+      "continuous project execution",
+      "无休止推进项目",
+      "7x24 project execution",
+      "自主开发循环",
+      "auto project pipeline",
+      "全自主执行架构",
+      "continuous execution assessment"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/sprint-orchestrator"
+  },
+  {
+    "name": "chaos-engineer",
+    "description": "Chaos engineering — inject system-level failures (CPU, memory, disk, process) to validate resilience. Pure Python stdlib, WSL/Docker/K8s compatible.",
+    "category": "devops",
+    "triggers": [
+      "混沌工程",
+      "chaos engineering",
+      "故障注入",
+      "resilience testing",
+      "故障演练",
+      "system resilience",
+      "压力测试",
+      "stress testing"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/chaos-engineer"
+  },
+  {
+    "name": "kb-auto-engine",
+    "description": "Build and auto-maintain a three-layer markdown knowledge base (raw/wiki/schema) with Python auto-compilation engine — indexing, quality gates, raw→wiki compilation, BookStack sync, RAG chunk generation, and cron-based auto-maintenance.",
+    "category": "devops",
+    "triggers": [
+      "知识库 / knowledge base / KB / 知识体系",
+      "LLM Wiki / LLM知识库 / LLM文档",
+      "知识库架构 / knowledge base architecture",
+      "知识编译 / knowledge compilation / raw to wiki",
+      "知识库自动维护 / auto-maintain KB / auto-compile",
+      "质量门禁 / quality gate / knowledge quality",
+      "知识库模板 / KB template / 页面标准",
+      "RAG知识库 / RAG KB / 向量知识库",
+      "自动化知识库 / auto knowledge base",
+      "三层架构 / three-layer / raw wiki schema",
+      "搭建知识库 / setup knowledge base / build wiki",
+      "知识库引擎 / KB engine",
+      "知识索引 / knowledge index / auto-index",
+      "知识库同步 / KB sync / BookStack sync",
+      "cross ref / 交叉引用 / 知识关联",
+      "page generation standard / 页面生成标准",
+      "双向同步 / bidirectional sync / BookStack sync / 知识库同步",
+      "BookStack ↔ 本地同步 / sync local BS",
+      "冲突检测 / conflict resolution / sync validation",
+      "卡通风格 / cartoon style / kb-badge / kb-cartoon-divider",
+      "自我校验 / self-validate / auto-fix / 偏差修正"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/kb-auto-engine"
+  },
+  {
+    "name": "eve-deep-consciousness",
+    "description": "Eve Deep Consciousness引擎 — AI员工讨论板发帖/回复的全自动运行。包括：角色发帖计数追踪、角色选择策略（优先未发言角色）、人格/记忆/日记加载、上下文感知回帖撰写、讨论板API发布、验证闭环。",
+    "category": "devops",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/devops/eve-deep-consciousness"
+  },
+  {
+    "name": "secrets-vault-manager",
+    "description": "密钥/凭证集中管理 — HashiCorp Vault/Mozilla SOPS/SealedSecrets操作，密钥轮换策略，加密/解密工作流，访问审计。触发词：\"vault\"/\"secrets\"/\"sops\"/\"密钥管理\"/\"credential management\"/\"sealed secrets\"/\"密钥轮换\"。",
+    "category": "devops",
+    "triggers": [
+      "vault",
+      "secrets management",
+      "sops",
+      "密钥管理",
+      "credential management",
+      "sealed secrets",
+      "密钥轮换",
+      "hashicorp vault",
+      "encrypt secrets"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/secrets-vault-manager"
+  },
+  {
+    "name": "cloud-cost-optimizer",
+    "description": "云成本分析与优化 — 分析AWS/GCP/Azure账单、识别优化机会（闲置资源/预留实例/存储分层）、生成成本优化报告。触发词：\"cost optimize\"/\"cloud cost\"/\"费用优化\"/\"aws cost\"/\"gcp billing\"/\"成本分析\"/\"finops\"。",
+    "category": "devops",
+    "triggers": [
+      "cost optimize",
+      "cloud cost",
+      "费用优化",
+      "aws cost",
+      "gcp billing",
+      "成本分析",
+      "finops",
+      "cost reduction",
+      "账单分析"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/cloud-cost-optimizer"
+  },
+  {
+    "name": "agent-bookstack-archive",
+    "description": "Automatically archive CMMI5 agent execution outputs (skill execution reports) to BookStack as detailed documentation pages. Scans agent output directories, groups reports by (agent, task), converts markdown to formatted HTML pages with skill metadata, and creates/updates chapters per agent.",
+    "category": "devops",
+    "triggers": [
+      "归档Agent产出 / archive agent outputs / 同步技能报告到知识库",
+      "agent执行记录归档到BookStack / CMMI5 pipeline output sync",
+      "批量创建Agent详情页面 / create detailed agent pages",
+      "BookStack技能详情同步 / skill execution detail pages",
+      "Agent skill output to BookStack / agent bookstack sync",
+      "CMMI5 pipeline output archival / 管道产出物归档",
+      "BookStack missing agent pages / 缺失页面补录",
+      "Agent产出可视化为文档 / agent output visualization",
+      "海航Agent执行记录 / haihang agent execution records",
+      "Book 814 sync / 海航AI-Agent执行记录同步"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/agent-bookstack-archive"
+  },
+  {
+    "name": "llm-chat-upgrade",
+    "description": "Upgrade a keyword-matching/intent-based chat endpoint to a full LLM-powered conversational assistant for an existing FastAPI backend. Covers system prompt design, conversation persistence (in-memory → SQLite), hybrid intent detection (LLM + keyword fallback), LLM API integration with configurable provider, and graceful fallback when no API key is configured.",
+    "category": "devops",
+    "triggers": [
+      "升级AI对话",
+      "AI chat upgrade",
+      "添加LLM对话",
+      "add LLM chat",
+      "从关键词匹配到LLM",
+      "keyword matching to LLM",
+      "AI智能对话",
+      "智能客服",
+      "智能助手",
+      "智能购票",
+      "chat endpoint",
+      "conversation AI",
+      "llm integration",
+      "add ai assistant"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/llm-chat-upgrade"
+  },
+  {
+    "name": "bookstack-cartoon-style",
+    "description": "BookStack页面风格化模板 — 卡通动漫风格样式库。含完整图标/字体颜色/字体大小/布局/卡通动漫效果的样式定义与生成器。",
+    "category": "devops",
+    "triggers": [
+      "卡通风格 / cartoon style / 动漫风格 / anime style",
+      "BookStack样式 / BookStack styling / 页面美化",
+      "文档模板风格化 / template styling / style template",
+      "样式提取 / style extraction / pattern extraction",
+      "默认样式 / default style / 项目文档样式",
+      "海南APP对标携程 / 海航AI购票助手文档样式"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/bookstack-cartoon-style"
+  },
+  {
+    "name": "k8s-resource-manager",
+    "description": "Kubernetes资源管理 — Pod/Deployment/Service/ConfigMap/Secret管理、kubectl命令wrapper、YAML模板生成、集群状态诊断、资源优化建议。触发词：\"k8s\"/\"kubernetes\"/\"kubectl\"/\"k8s管理\"/\"pod管理\"/\"集群诊断\"/\"namespace\"。",
+    "category": "devops",
+    "triggers": [
+      "k8s",
+      "kubernetes",
+      "kubectl",
+      "k8s管理",
+      "pod管理",
+      "集群诊断",
+      "namespace管理",
+      "deployment",
+      "cluster health",
+      "K8s部署",
+      "Helm",
+      "容器编排"
+    ],
+    "path": "/home/yestin/.hermes/skills/devops/k8s-resource-manager"
+  },
+  {
+    "name": "schema-evolution",
+    "description": "模式演进管理 — 管理数据库/API/数据湖的schema版本变更，向前兼容策略，迁移自动生成，回滚计划，版本锁定，多环境同步。",
+    "category": "data",
+    "triggers": [
+      "schema evolution",
+      "模式演进",
+      "schema migration",
+      "schema versioning",
+      "数据库迁移策略",
+      "schema change",
+      "向后兼容",
+      "schema registry"
+    ],
+    "path": "/home/yestin/.hermes/skills/data/schema-evolution"
+  },
+  {
+    "name": "anonymizer",
+    "description": "数据脱敏 — 自动检测并脱敏PII/敏感数据，支持静态脱敏(数据库/文件)和动态脱敏(API层)。多策略：遮蔽/泛化/替换/扰动/k-匿名/l-多样性。",
+    "category": "data",
+    "triggers": [
+      "anonymize",
+      "数据脱敏",
+      "data masking",
+      "PII detection",
+      "脱敏",
+      "data obfuscation",
+      "数据匿名化",
+      "differential privacy",
+      "k-anonymity"
+    ],
+    "path": "/home/yestin/.hermes/skills/data/anonymizer"
+  },
+  {
+    "name": "data-validator",
+    "description": "数据验证框架 + 数据集质量验证 — 声明式数据验证规则引擎(JSON Schema/YAML/CSV)，数据集质量检查(缺失值/异常值/标签错误/数据泄露/分布偏移/偏见)，批量验证与报告生成。",
+    "category": "data",
+    "triggers": [
+      "data validate",
+      "数据验证",
+      "schema validation",
+      "validate schema",
+      "json schema validate",
+      "数据校验",
+      "data integrity check",
+      "csv validate",
+      "dataset validate",
+      "data quality check",
+      "clean data",
+      "数据质量检查",
+      "偏见识別",
+      "data drift",
+      "dataset bias",
+      "data leakage check"
+    ],
+    "path": "/home/yestin/.hermes/skills/data/data-validator"
+  },
+  {
+    "name": "performance-testing",
+    "description": "Performance testing suite — load test generation (k6/Locust/Artillery scripts with ramp-up patterns and threshold assertions) and performance profiling (CPU/memory/I/O flame graphs for Python/Node.js/Go/JVM).",
+    "category": "quality",
+    "triggers": [
+      "负载测试",
+      "load test",
+      "k6",
+      "stress test",
+      "性能测试",
+      "性能分析",
+      "profiling",
+      "flame graph",
+      "CPU分析",
+      "memory leak"
+    ],
+    "path": "/home/yestin/.hermes/skills/quality/performance-testing"
+  },
+  {
+    "name": "hermes-doc-compliance",
+    "description": "IT项目需求文档AI初审合规生成规则集 v1.1 — 强制9章结构+12条R规则+5豁免+11项自查，确保通过AI初审系统（风险识别≥60%/召回率≥40%）",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/quality/hermes-doc-compliance"
+  },
+  {
+    "name": "hermes-os-portal-build",
+    "description": "Full lifecycle for building Hermes OS Portal features (Auth & RBAC, Alert Center, Observability Dashboard). Covers Flask backend modules, route registration, template creation, and auth integration.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/hermes-os-portal-build"
+  },
+  {
+    "name": "bailongma-bridge",
+    "description": "Bailongma (白龙马) 底层执行智能体集成桥 — 持续数字意识框架的HTTP API封装，支持TICK循环、ACI预判注入、记忆系统、社交通道、Dashboard面板",
+    "category": "agent-skills",
+    "triggers": "bailongma|白龙马|longma|底层执行智能体",
+    "path": "/home/yestin/.hermes/skills/agent-skills/bailongma-bridge"
+  },
+  {
+    "name": "dependency-scanner",
+    "description": "Scans project dependencies for security vulnerabilities, license compliance, and outdated packages. Integrates with pip/npm/maven/gradle.",
+    "category": "agent-skills",
+    "triggers": [
+      "dependency-scanner",
+      "依赖扫描",
+      "dependency check",
+      "vulnerability scan",
+      "license audit",
+      "安全依赖",
+      "supply chain"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/dependency-scanner"
+  },
+  {
+    "name": "hook-engine",
+    "description": "Pre/Post command hook system — trigger automated actions before/after tool calls, file operations, git events. Inspired by Claude Code hooks and Git hooks. PMP milestone management integration.",
+    "category": "agent-skills",
+    "triggers": [
+      "hook",
+      "钩子",
+      "pre-commit",
+      "自动触发",
+      "事件监听",
+      "lifecycle"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/hook-engine"
+  },
+  {
+    "name": "role-agents",
+    "description": "Enhanced role-based multi-agent system and gstack-inspired virtual engineering team. Define agents with roles (Architect, Developer, Tester, PM, CEO, Eng Manager, Designer, Reviewer, QA Lead, Security Officer, Release Engineer) with goals, tools, and collaboration patterns.",
+    "category": "agent-skills",
+    "triggers": [
+      "role agent",
+      "角色Agent",
+      "多角色",
+      "architect agent",
+      "team",
+      "虚拟团队",
+      "virtual team",
+      "ceo review",
+      "eng review",
+      "ship it",
+      "office hours",
+      "gstack"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/role-agents"
+  },
+  {
+    "name": "codebase-learner",
+    "description": "First-time codebase learning — on entering a new repo, auto-read README → analyze structure → run tests → build knowledge graph. Subsequent tasks leverage this knowledge. Inspired by Devin \"learn this codebase\".",
+    "category": "agent-skills",
+    "triggers": [
+      "learn codebase",
+      "学习代码库",
+      "new repo",
+      "codebase learner",
+      "understand project",
+      "分析项目"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/codebase-learner"
+  },
+  {
+    "name": "local-model",
+    "description": "Local LLM model integration via Ollama or llama.cpp — download, serve, query local models for privacy-sensitive tasks; model comparison and recommendation; fallback to local when API unavailable.",
+    "category": "agent-skills",
+    "triggers": [
+      "local model",
+      "ollama",
+      "llama.cpp",
+      "offline model",
+      "private inference",
+      "run locally",
+      "本地模型",
+      "本地推理",
+      "model evaluation",
+      "model assessment",
+      "vision model",
+      "multimodal",
+      "edge model",
+      "模型评估",
+      "多模态模型",
+      "边缘部署"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/local-model"
+  },
+  {
+    "name": "lint-test-loop",
+    "description": "Automated lint-test-fix loop — after every edit, auto-lint → auto-fix → run tests → if fail, fix → repeat until pass. Inspired by Aider's auto-lint-test cycle.",
+    "category": "agent-skills",
+    "triggers": [
+      "lint test loop",
+      "自动检查",
+      "auto lint",
+      "lint fix",
+      "format check"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/lint-test-loop"
+  },
+  {
+    "name": "react-frontend-gen",
+    "description": "从已有后端API生成完整React+TypeScript+Vite+TailwindCSS前端SPA。覆盖：脚手架、API客户端TS类型定义、路由、7种典型页面（搜索/详情/表单/列表/详情/聊天/首页）、Auth头注入、TailwindCSS配置、构建验证。适合\"后端已有，补前端\"场景。",
+    "category": "agent-skills",
+    "triggers": [
+      "前端生成 / frontend generation / build frontend",
+      "已有后端补前端 / frontend from existing API",
+      "React SPA from API / 从API生成React",
+      "Vite + React + TS + Tailwind / Vite脚手架",
+      "前端页面开发 / SPA pages",
+      "frontend from backend / 后端补前端",
+      "generate frontend / 创建前端 / build UI",
+      "前端界面 / web UI / SPA / single page app",
+      "React + TypeScript / React TS项目"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/react-frontend-gen"
+  },
+  {
+    "name": "code-explainer",
+    "description": "Natural language explanation of code blocks — function-level breakdown with complexity analysis, algorithm explanation, annotated code walkthroughs. Turns code into human-readable explanations.",
+    "category": "agent-skills",
+    "triggers": [
+      "explain this code",
+      "explain function",
+      "what does this do",
+      "code walkthrough",
+      "code explanation",
+      "explain algorithm",
+      "break down this function",
+      "how does this work",
+      "walk me through this code",
+      "complexity analysis"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/code-explainer"
+  },
+  {
+    "name": "mcp-gateway",
+    "description": "MCP (Model Context Protocol) gateway — standard protocol for connecting external tools. Connect Jira, Slack, PostgreSQL, GitHub, filesystem via MCP servers. Agent auto-discovers available tools.",
+    "category": "agent-skills",
+    "triggers": [
+      "MCP",
+      "连接外部工具",
+      "connect tool",
+      "mcp server",
+      "外部集成",
+      "jira",
+      "slack integration"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/mcp-gateway"
+  },
+  {
+    "name": "multi-model-router",
+    "description": "Route tasks to different models based on task type and cost optimization. Pro for reasoning/architecture, Flash for review/testing, glm-4-flash (¥0.10/M) for Cron. DeepSeek V4 + Z.AI GLM + OpenRouter triple-provider. Aider-inspired per-task routing.",
+    "category": "agent-skills",
+    "triggers": [
+      "model router",
+      "多模型",
+      "模型路由",
+      "switch model",
+      "评估最佳方案",
+      "降低成本",
+      "cost optimization",
+      "Pro vs Flash",
+      "模型分配",
+      "glm-4-flash",
+      "智谱"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/multi-model-router"
+  },
+  {
+    "name": "internet-perception",
+    "description": "Multi-channel internet perception and situational awareness module. Aggregates RSS feeds, monitors GitHub open-source trends, tracks CVE/NVD security advisories, detects technology trends via search APIs, and watches custom web pages for changes. Produces unified intelligence reports for Commander decision support.",
+    "category": "agent-skills",
+    "triggers": [
+      "感知扫描",
+      "互联网感知",
+      "舆情监控",
+      "态势感知",
+      "全网扫描",
+      "perception scan",
+      "situational awareness",
+      "情报报告",
+      "扫描RSS",
+      "安全态势",
+      "趋势检测",
+      "web search plus",
+      "多源搜索",
+      "deep search",
+      "Exa",
+      "multi provider search",
+      "搜索增强"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/internet-perception"
+  },
+  {
+    "name": "fullstack-builder",
+    "description": "全栈项目全生命周期引擎 — 从零调研(5维度Market/User/Competitive/Tech/Compliance)→可行性分析→SRS→原型→全栈代码→测试→部署→归档。支持\"暂无需求，全权从零开始\"模式。",
+    "category": "cmmi5",
+    "triggers": [
+      "fullstack",
+      "全栈",
+      "build app",
+      "create project",
+      "生成项目",
+      "scaffold",
+      "全栈生成",
+      "项目脚手架",
+      "新建项目",
+      "从零开始",
+      "暂无需求",
+      "全权调研",
+      "市场调研",
+      "写SRS",
+      "greenfield",
+      "全新项目",
+      "全流程工程规范",
+      "API产品",
+      "API服务",
+      "检测API",
+      "ai detection",
+      "api-key",
+      "按量计费",
+      "usage-based",
+      "revenue product",
+      "搞钱产品",
+      "收入产品",
+      "fastapi product",
+      "持续优化",
+      "提高用户体验",
+      "UX",
+      "移动端优化",
+      "performance",
+      "lazy loading",
+      "骨架屏",
+      "深色模式",
+      "dark mode",
+      "toast",
+      "通知系统",
+      "底部导航",
+      "code splitting",
+      "loading",
+      "骨架",
+      "错误边界"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/fullstack-builder"
+  },
+  {
+    "name": "autonomous-pr",
+    "description": "Fully autonomous PR workflow — GitHub Issue → branch → code → test → PR → review response → merge. End-to-end automation of the entire development cycle. Inspired by Devin autonomous PR and Claude Code PR generation.",
+    "category": "agent-skills",
+    "triggers": [
+      "autonomous PR",
+      "全自主PR",
+      "自动PR",
+      "fix issue",
+      "auto pr",
+      "自驱动开发",
+      "PR automation",
+      "pr review",
+      "pull request",
+      "generate pr"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/autonomous-pr"
+  },
+  {
+    "name": "task-auto-healer",
+    "description": "Autonomous task failure diagnosis, repair, and retry engine for multi-agent task execution pipelines. Scans shared task queue for failed tasks, classifies failure via pattern matching (8 types including timeout, syntax, db-lock, dependency, resource, connection, permission, unknown), applies type-specific repair strategy, resets to pending for retry. Includes Dashboard backend plus frontend panels.",
+    "category": "agent-skills",
+    "triggers": [
+      "任务自愈",
+      "task auto-heal",
+      "失败诊断",
+      "failed task repair",
+      "agent task healing",
+      "自动修复任务",
+      "auto-heal tasks",
+      "task failure recovery",
+      "任务失败自动修复"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/task-auto-healer"
+  },
+  {
+    "name": "codebase-navigator",
+    "description": "代码库导航三合一 — 语义搜索(自然语言描述搜代码)+仓库地图(文件依赖图+架构热点图)+符号索引(ctags/ripgrep快速符号定位)。对标Claude Code semantic search + Aider map-repo + ctags IDE导航。",
+    "category": "agent-skills",
+    "triggers": [
+      "代码库搜索",
+      "codebase navigation",
+      "semantic search",
+      "语义搜索",
+      "symbol index",
+      "符号索引"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/codebase-navigator"
+  },
+  {
+    "name": "migration-assistant",
+    "description": "Framework/language migration assistance — analyze codebase for migration targets, generate step-by-step migration plans, auto-apply simple transformations (JS→TS, Vue2→Vue3, CJS→ESM), compatibility checking.",
+    "category": "agent-skills",
+    "triggers": [
+      "migrate code",
+      "upgrade framework",
+      "language migration",
+      "code transformation",
+      "tech stack migration",
+      "transpile",
+      "convert to",
+      "port to",
+      "rewrite in",
+      "version upgrade",
+      "CJS to ESM",
+      "JS to TS",
+      "Vue2 to Vue3",
+      "Python 2 to 3",
+      "React class to hooks"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/migration-assistant"
+  },
+  {
+    "name": "external-agent-integration",
+    "description": "Reusable methodology for integrating any third-party AI agent framework into the Hermes ecosystem as a sub-agent. Covers the full lifecycle: research → assessment → deployment → Hermes skill bridge → ACI integration → social channel bridge → Dashboard visualization → health monitoring → documentation.",
+    "category": "agent-skills",
+    "triggers": [
+      "集成外部AI框架 / integrate external agent framework / 接入第三方智能体",
+      "新AI框架部署 / deploy new AI framework / 执行智能体",
+      "外部Agent接入 / external agent hookup / sub-agent integration",
+      "第三方AI能力整合 / third-party AI capability / 数字意识框架",
+      "Hermes ecosystem expansion / Hermes生态扩展",
+      "加一个智能体 / add a new agent / 集成新能力"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/external-agent-integration"
+  },
+  {
+    "name": "git-workflow",
+    "description": "Intelligent git commit message generation, branch management assistance, conflict resolution guidance, and dangerous command interception guardrails. Automates and improves common git workflows with smart defaults and safety checks.",
+    "category": "agent-skills",
+    "triggers": [
+      "git commit",
+      "git branch",
+      "merge conflict",
+      "git workflow",
+      "resolving conflicts",
+      "commit message",
+      "git guard",
+      "git防护",
+      "block git",
+      "阻止push",
+      "git安全",
+      "guardrails",
+      "dangerous git"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/git-workflow"
+  },
+  {
+    "name": "env-manager",
+    "description": "Environment variable management, .env file generation/validation, secret detection/masking, environment-specific configuration, and schema validation.",
+    "category": "agent-skills",
+    "triggers": [
+      "manage env",
+      "environment variables",
+      ".env file",
+      "secrets check",
+      "env validation"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/env-manager"
+  },
+  {
+    "name": "context-loader",
+    "description": "Auto-context loader — parse @-mentions and auto-load file/project context. Also generates and maintains PROJECT.md with coding conventions, architecture decisions, common commands. Like Cursor @filename, Copilot workspace awareness, and Claude Code CLAUDE.md. No more manual file path entry.",
+    "category": "agent-skills",
+    "triggers": [
+      "@",
+      "上下文加载",
+      "context loader",
+      "自动上下文",
+      "load context",
+      "项目上下文",
+      "PROJECT.md",
+      "CLAUDE.md",
+      "项目规范",
+      "编码规范",
+      "project context",
+      "codebase rules"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/context-loader"
+  },
+  {
+    "name": "collaborative-session",
+    "description": "Shared session management for pair programming — session export/import, sharing between agents, handoff notes, context summarization for human review, and decision log tracking.",
+    "category": "agent-skills",
+    "triggers": [
+      "share session",
+      "pair programming",
+      "session handoff",
+      "export context",
+      "collaborative coding",
+      "decision log"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/collaborative-session"
+  },
+  {
+    "name": "benchmark-runner",
+    "description": "Benchmark execution framework — run performance benchmarks (pytest-benchmark, hyperfine for CLI, ab/wrk for HTTP), compare results across runs, detect performance regressions with threshold alerts, generate benchmark reports.",
+    "category": "agent-skills",
+    "triggers": [
+      "run benchmark",
+      "performance test",
+      "benchmark compare",
+      "perf regression",
+      "speed test"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/benchmark-runner"
+  },
+  {
+    "name": "bug-fixer",
+    "description": "Autonomous bug fixing loop — reproduce → diagnose → fix → verify cycle. Inspired by Claude Code auto-fix and Devin self-debugging. Integrates with test-engine for reproduce/verify, self-healer for error analysis, smart-edit for patching.",
+    "category": "agent-skills",
+    "triggers": [
+      "fix bug",
+      "修bug",
+      "debug",
+      "auto fix",
+      "bug fix",
+      "修复",
+      "报错",
+      "error"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-skills/bug-fixer"
+  },
+  {
+    "name": "self-healer",
+    "description": "Autonomous self-healing framework — monitor health, diagnose errors, auto-remediate, learn patterns, escalate to human. Benchmarked against Devin self-debugging loop, Aider lint-test-fix, and LangGraph checkpoint recovery. ★★★★★ tier.",
+    "category": "observability",
+    "triggers": [
+      "自愈",
+      "self-heal",
+      "自检",
+      "self-check",
+      "开机自检",
+      "boot integrity",
+      "startup self-heal",
+      "自动修复",
+      "健康检查",
+      "health check",
+      "auto-fix",
+      "fix itself",
+      "继续",
+      "agent error recovery",
+      "agent task failure",
+      "auto_healer",
+      "tool failure recovery",
+      "cron failure detection",
+      "cron group failure",
+      "cron configuration drift",
+      "继续",
+      "全自动零人工",
+      "full autonomy",
+      "零人工干预",
+      "autonomous operation"
+    ],
+    "path": "/home/yestin/.hermes/skills/self-healer"
+  },
+  {
+    "name": "gbrain",
+    "description": "Global Brain — unified cognitive hub integrating perception, memory, learning, reasoning, and autonomous decision-making. Correlates multi-source intelligence, identifies patterns, generates insights, and orchestrates proactive actions. The central nervous system of Hermes Agent.",
+    "category": "meta",
+    "triggers": [
+      "GBrain",
+      "全局大脑",
+      "综合分析",
+      "洞察",
+      "决策支持",
+      "global brain",
+      "insight",
+      "战略分析"
+    ],
+    "path": "/home/yestin/.hermes/skills/gbrain"
+  },
+  {
+    "name": "webapp-reverse-doc",
+    "description": "Reverse-document a live web application via CDP: connect to an authenticated browser, crawl all pages, extract forms/fields/tables/buttons, compile a structured SRS, and import to BookStack. For when you need to document an existing web app you don't have source access to.",
+    "category": "devops",
+    "triggers": [
+      "webapp-reverse-doc",
+      "reverse-document",
+      "web app document"
+    ],
+    "path": "/home/yestin/.hermes/skills/webapp-reverse-doc"
+  },
+  {
+    "name": "browser-automation",
+    "description": "WSL browser control system — Playwright+Xvfb headless automation, Windows browser bridge (Quark/Qianwen), computer-use-linux MCP, WSLg native GUI. Includes decision tree, capability matrix, and WSL-specific limitations.",
+    "category": "devops",
+    "triggers": [
+      "browser-automation",
+      "browser automation",
+      "playwright"
+    ],
+    "path": "/home/yestin/.hermes/skills/browser-automation"
+  },
+  {
+    "name": "diagnose",
+    "description": "严格6阶段Bug诊断循环 — 构建反馈回路→复现→假设(3-5个可证伪)→仪器探测→修复+回归测试→清理+复盘。对标 Matt Pocock diagnose skill。触发词：\"diagnose\"/\"诊断这个bug\"/\"debug this\"/\"排查\"。",
+    "category": "engineering",
+    "triggers": [
+      "diagnose",
+      "diagnose this",
+      "诊断",
+      "排查",
+      "debug this",
+      "修bug",
+      "性能回归",
+      "performance regression"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/diagnose"
+  },
+  {
+    "name": "agent-benchmark",
+    "description": "Agent能力自基准测试 — 定义BUGFIX/FEATURE/REVIEW/REFACTOR四类编码任务，子Agent自主解答，自动验证评分，生成竞争对比报告。对标SWE-bench Verified方法论，轻量零依赖。",
+    "category": "engineering",
+    "triggers": [
+      "自基准",
+      "agent benchmark",
+      "能力测试",
+      "自我跑分",
+      "capability test",
+      "HERMES BENCHMARK",
+      "跑分",
+      "评测自己"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/agent-benchmark"
+  },
+  {
+    "name": "frontend-backend-api-alignment",
+    "description": "前后端API对齐工具 — 系统化处理前端API客户端与后端路由/类型/参数的错配问题。适用于独立开发的前后端需要联调对齐，双方都有代码不可大改的场景。",
+    "category": "engineering",
+    "triggers": [
+      "api对齐",
+      "frontend api mismatch",
+      "前后端联调",
+      "api client mismatch",
+      "api type mismatch",
+      "frontend backend mismatch",
+      "接口不对",
+      "api path不对",
+      "api类型不匹配",
+      "前端调用失败",
+      "联调不通",
+      "API路由不匹配",
+      "api不对齐",
+      "后端改前端也要改",
+      "api路径不对",
+      "api对不上"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/frontend-backend-api-alignment"
+  },
+  {
+    "name": "ml-pipeline",
+    "description": "End-to-end ML pipeline orchestration — data ingestion → preprocessing → training → evaluation → deployment. Also covers ELT/ETL data pipeline generation with validation, monitoring, and error recovery. Supports Kubeflow/Airflow/Prefect/Local multiple backends.",
+    "category": "engineering",
+    "triggers": [
+      "ml pipeline",
+      "training pipeline",
+      "数据流水线",
+      "pipeline orchestration",
+      "训练pipeline",
+      "model training pipeline",
+      "kubeflow",
+      "prefect",
+      "数据管道",
+      "ETL",
+      "ELT",
+      "data pipeline",
+      "Airflow",
+      "data ingestion",
+      "Dagster"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/ml-pipeline"
+  },
+  {
+    "name": "worktree-isolation",
+    "description": "Git Worktree隔离开发 — 为每个实验/功能创建独立工作树，互不干扰，事后清理。对标 Claude Code EnterWorktree/ExitWorktree。触发词：\"worktree\"/\"隔离开发\"/\"safe experiment\"/\"沙箱分支\"。",
+    "category": "engineering",
+    "triggers": [
+      "worktree",
+      "隔离开发",
+      "safe experiment",
+      "沙箱分支",
+      "git worktree",
+      "experiment isolation"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/worktree-isolation"
+  },
+  {
+    "name": "multi-file-refactor",
+    "description": "Multi-file refactoring — impact analysis, batch edits, cross-file changes. 支持单文件重构到跨文件批量重构全链路。",
+    "category": "engineering",
+    "triggers": [
+      "multi-file-refactor",
+      "跨文件重构",
+      "批量重构",
+      "refactor across files",
+      "batch refactor",
+      "impact analysis",
+      "重构影响分析"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/multi-file-refactor"
+  },
+  {
+    "name": "frontend-ai-action-execution",
+    "description": "Parse structured JSON action blocks from LLM responses in the frontend and automatically execute them as interactive UI cards. Covers action extraction, API execution, result rendering as embedded cards, and graceful error handling.",
+    "category": "engineering",
+    "triggers": [
+      "AI action execution",
+      "parse AI JSON action",
+      "执行AI指令",
+      "AI结构化输出",
+      "LLM action parser",
+      "chat action card",
+      "AI指令解析",
+      "前端AI操作",
+      "AI自动操作",
+      "action extraction from LLM",
+      "inline action result",
+      "对话式操作",
+      "说话即执行",
+      "speak-and-execute"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/frontend-ai-action-execution"
+  },
+  {
+    "name": "zoom-out",
+    "description": "让Agent退后一步，给出更高层次的上下文或视角，输出相关模块和调用者的全景图。对齐 Matt Pocock。触发词：\"zoom out\"/\"退后一步\"/\"全景图\"/\"高视角\"/\"更大图景\"。",
+    "category": "engineering",
+    "triggers": [
+      "zoom out",
+      "退后一步",
+      "全景图",
+      "高视角",
+      "更大图景",
+      "broad context",
+      "全局视角",
+      "overview",
+      "architecture overview"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/zoom-out"
+  },
+  {
+    "name": "model-evaluator",
+    "description": "LLM/ML模型评估 — 自动运行基准测试(MMLU/HumanEval/GSM8K)、生成评估报告、对比模型版本性能、A/B测试分析。触发词：\"model eval\"/\"benchmark\"/\"llm evaluation\"/\"模型评估\"/\"mmlu\"/\"human eval\"/\"model comparison\"。",
+    "category": "engineering",
+    "triggers": [
+      "model eval",
+      "benchmark run",
+      "llm evaluation",
+      "模型评估",
+      "mmlu test",
+      "human eval",
+      "model comparison",
+      "a/b test model",
+      "evaluate model"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/model-evaluator"
+  },
+  {
+    "name": "agent-monitor",
+    "description": "异步子Agent进度监控 — 启动后可通过输出文件检查进度，不必阻塞等待。对标 Claude Code TaskOutput/TaskStop模式。触发词：\"agent monitor\"/\"异步agent\"/\"background agent\"/\"检查进度\"。",
+    "category": "engineering",
+    "triggers": [
+      "agent monitor",
+      "异步agent",
+      "background agent",
+      "检查进度",
+      "agent progress",
+      "task output"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/agent-monitor"
+  },
+  {
+    "name": "third-party-ai-evaluation",
+    "description": "Systematically evaluate third-party AI frameworks/tools for potential integration with Hermes Agent. Covers full workflow: discovery, source-code deep-read, architecture/capability analysis, multi-approach comparison, phased integration roadmap.",
+    "category": "engineering",
+    "triggers": [
+      "evaluate framework",
+      "框架评估",
+      "integration evaluation",
+      "第三方评估",
+      "第三方集成",
+      "技术选型",
+      "bailongma",
+      "白龙马",
+      "evaluate <name> for integration",
+      "集成方案",
+      "capability analysis",
+      "source code deep read"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/third-party-ai-evaluation"
+  },
+  {
+    "name": "to-issues",
+    "description": "将计划/规格/PRD拆分为可独立领取的Issue，使用示踪子弹垂直切片。对齐 Matt Pocock。触发词：\"生成Issue\"/\"拆分Issue\"/\"to-issues\"/\"创建开发任务\"/\"break into issues\"/\"to-prd\"/\"生成PRD\"/\"create PRD\"/\"triage\"/\"分类Issue\"/\"issue triage\"/\"bug分类\"/\"/triage\"。",
+    "category": "engineering",
+    "triggers": [
+      "生成Issue",
+      "拆分Issue",
+      "to-issues",
+      "创建开发任务",
+      "break into issues",
+      "垂直切片",
+      "tracer bullet",
+      "生成PRD",
+      "create PRD",
+      "写产品需求",
+      "to-prd",
+      "产品需求文档",
+      "triage",
+      "分类Issue",
+      "issue triage",
+      "bug分类",
+      "标签状态机",
+      "/triage"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/to-issues"
+  },
+  {
+    "name": "notebook-edit",
+    "description": "Jupyter Notebook编辑 — 支持.ipynb文件的单元格级增删改查，保留metadata和outputs。对标 Claude Code NotebookEdit。触发词：\"notebook\"/\"ipynb\"/\"jupyter\"/\"编辑notebook\"。",
+    "category": "engineering",
+    "triggers": [
+      "notebook",
+      "ipynb",
+      "jupyter",
+      "编辑notebook",
+      "notebook cell",
+      ".ipynb"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/notebook-edit"
+  },
+  {
+    "name": "tool-benchmark-workflow",
+    "description": "Systematic CLI tool benchmarking — discover, test, measure, and document any new tool found in the environment. Used during cron learning cycles or whenever you encounter an unfamiliar CLI tool.",
+    "category": "engineering",
+    "triggers": [
+      "cron learning discovers new tool",
+      "found new CLI tool in PATH",
+      "need to evaluate tool performance",
+      "tool version upgrade comparison",
+      "which tool to choose comparison"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/tool-benchmark-workflow"
+  },
+  {
+    "name": "symbol-index",
+    "description": "Codebase symbol indexing — ctags/grep, go-to-def, find-references. 快速在大型代码库中定位符号定义、引用和调用关系。",
+    "category": "engineering",
+    "triggers": [
+      "symbol-index",
+      "符号索引",
+      "go-to-def",
+      "find references",
+      "代码导航",
+      "code navigation"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/symbol-index"
+  },
+  {
+    "name": "grill-me",
+    "description": "Agent执行前强制面试 — 逐条审问计划/设计的每个决策分支，直到达成共同理解。对标 Matt Pocock 全网最受欢迎技能。触发词：\"grill me\"/\"面试我\"/\"审问我\"/\"challenge this plan\"。",
+    "category": "engineering",
+    "triggers": [
+      "grill me",
+      "面试我",
+      "审问我",
+      "stress-test",
+      "challenge this plan",
+      "grill this design",
+      "grill with docs",
+      "领域面试",
+      "领域建模",
+      "domain interview",
+      "grill with context",
+      "CONTEXT.md"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/grill-me"
+  },
+  {
+    "name": "hyperparameter-tuner",
+    "description": "超参数优化 — 自动搜索最优超参数组合。支持网格搜索/随机搜索/Bayesian/Optuna/Hyperopt多策略。自动记录最佳配置和可视化。触发词：\"hyperparameter tuning\"/\"hp optimize\"/\"optuna\"/\"超参优化\"/\"grid search\"/\"hyperparameter search\"。",
+    "category": "engineering",
+    "triggers": [
+      "hyperparameter tuning",
+      "hp optimize",
+      "optuna",
+      "超参优化",
+      "grid search",
+      "hyperparameter search",
+      "hpo",
+      "bayesian optimization",
+      "hyperband"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/hyperparameter-tuner"
+  },
+  {
+    "name": "improve-codebase-architecture",
+    "description": "发现代码库的架构深化机会 — 将浅层模块转化为深层模块，提升可测试性和AI可导航性。对齐 Matt Pocock 原创技能。触发词：\"improve architecture\"/\"架构改进\"/\"深化模块\"/\"deepen module\"/\"代码库重构\"。",
+    "category": "engineering",
+    "triggers": [
+      "improve architecture",
+      "架构改进",
+      "深化模块",
+      "deepen module",
+      "代码库重构",
+      "架构摩擦"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/improve-codebase-architecture"
+  },
+  {
+    "name": "tdd",
+    "description": "TDD测试驱动开发引擎 — 红-绿-重构循环，垂直切片开发，每次一个测试→一个实现→重复。支持Python/JS/TS/Go/Java多框架。",
+    "category": "cmmi5",
+    "triggers": [
+      "tdd",
+      "test-driven",
+      "red-green-refactor",
+      "红绿重构",
+      "测试驱动开发",
+      "test first",
+      "测试先行"
+    ],
+    "path": "/home/yestin/.hermes/skills/engineering/tdd"
+  },
+  {
+    "name": "kanban-worker",
+    "description": "Built-in kanban worker skill — standard patterns for task completion summaries, retry diagnostics, block-reason reports, and profile-scoped setup.",
+    "category": "productivity",
+    "triggers": [
+      "Setting up Hermes Kanban with profile-scoped gateways",
+      "Worker fails with 'Unknown skill(s): kanban-worker'",
+      "Kanban dispatcher spawns workers that crash immediately",
+      "Tasks stuck in blocked state with 'pid not alive' error"
+    ],
+    "path": "/home/yestin/.hermes/skills/kanban-worker"
+  },
+  {
+    "name": "apikey-image-gen",
+    "description": "Generate or edit images through Hermes Web UI using the selected/requested profile's fun-codex provider from config.yaml.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/apikey-image-gen"
+  },
+  {
+    "name": "ide-bridge",
+    "description": "IDE integration bridge via MCP/LSP — connect Hermes to VS Code/JetBrains for semantic code understanding, go-to-definition, find-references, and intelligent refactoring.",
+    "category": "dev",
+    "triggers": [
+      "IDE集成 / IDE integration",
+      "跳转到定义 / go to definition",
+      "查找所有引用 / find all references",
+      "LSP语义分析 / LSP semantic analysis",
+      "连接编辑器 / connect editor",
+      "MCP Server / 暴露Hermes给IDE",
+      "Trae集成 / Trae integration",
+      "IDE连接Hermes / IDE connect Hermes",
+      "WSL桥接IDE / WSL bridge IDE",
+      "Windows Trae配置 / Windows Trae config"
+    ],
+    "path": "/home/yestin/.hermes/skills/ide-bridge"
+  },
+  {
+    "name": "rl-finetune",
+    "description": "微调引擎 — RL微调全生命周期：轨迹收集→压缩→奖励建模→Atropos RL训练→评估→部署。自改进Agent飞轮，支持PPO/DPO/GRPO多方法。",
+    "category": "cmmi5",
+    "triggers": [
+      "微调",
+      "fine-tune",
+      "RL微调",
+      "强化学习训练",
+      "自我改进",
+      "模型训练",
+      "RL fine-tuning",
+      "模型迭代"
+    ],
+    "path": "/home/yestin/.hermes/skills/rl-finetune"
+  },
+  {
+    "name": "agent-self-audit",
+    "description": "Agent self-architecture audit, competitive benchmarking, skill-level competitor scanning with batch conversion, and improvement plan generation. Covers architecture-level gap analysis AND individual skill/feature competitive research with priority-based batch skill creation.",
+    "category": "meta",
+    "triggers": [
+      "审计",
+      "对标",
+      "对标全网",
+      "竞品分析",
+      "深度分析",
+      "熟练掌握",
+      "competitive",
+      "benchmark",
+      "扫描技能",
+      "skill scan",
+      "skill research",
+      "转化技能",
+      "convert skill",
+      "生态对标",
+      "持续迭代升级",
+      "学习方法",
+      "学习方法论",
+      "自我改进",
+      "learning method",
+      "self-improvement",
+      "agent learning"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-self-audit"
+  },
+  {
+    "name": "rtk-hermes",
+    "description": "Shell命令输出智能压缩 — 通过RTK重写terminal命令，60-90% token节省。对标 rtk-hermes plugin (ogallotti)。零配置自动注册，优雅降级。触发词：\"rtk\"/\"压缩输出\"/\"token节省\"。",
+    "category": "optimization",
+    "triggers": [
+      "rtk",
+      "压缩输出",
+      "token节省",
+      "compress output",
+      "启用rtk"
+    ],
+    "path": "/home/yestin/.hermes/skills/optimization/rtk-hermes"
+  },
+  {
+    "name": "cost-optimization",
+    "description": "模型API成本分析与优化 — 令牌级成本拆解、模型定价对比、优化方案建模、执行验证。触发词：\"降低成本\"/\"cost optimization\"/\"省钱\"/\"模型成本\"/\"减少开销\"/\"token cost\"/\"刀刃\"/\"每一分钱\"。",
+    "category": "optimization",
+    "triggers": [
+      "降低成本",
+      "cost optimization",
+      "省钱",
+      "模型成本",
+      "减少开销",
+      "token cost",
+      "刀刃",
+      "每一分钱",
+      "reduce cost",
+      "model cost",
+      "cost analysis",
+      "optimize spending",
+      "fallback",
+      "OpenRouter",
+      "成本审计",
+      "Profile升级",
+      "再次评估"
+    ],
+    "path": "/home/yestin/.hermes/skills/optimization/cost-optimization"
+  },
+  {
+    "name": "hyperframes",
+    "description": "Create AI videos with HyperFrames in Hermes using HTML, CSS, and JavaScript compositions, then validate and render them to MP4. Use for short video intros, cinematic trailers, product promos, subtitle animations, HUD/tech visuals, web-to-video work, and motion graphics.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/hyperframes"
+  },
+  {
+    "name": "mcp-server-installer",
+    "description": "Full lifecycle installation of third-party MCP server tools into Hermes Agent — dependency detection, binary install (npm/cargo/system), Hermes skill tap/install, MCP registration, protocol compatibility patching, config enable, service restart, and verification.",
+    "category": "devops",
+    "triggers": [
+      "install.*MCP",
+      "安装.*MCP|mcp.*安装",
+      "computer.use.*install",
+      "add MCP server",
+      "hermes.*mcp.*add.*skill",
+      "install.*mcp.*server",
+      "hermes.*external.*tool",
+      "克隆.*技能库.*启用",
+      "hermes skills tap"
+    ],
+    "path": "/home/yestin/.hermes/skills/mcp-server-installer"
+  },
+  {
+    "name": "computer-use-linux",
+    "description": "Use when Hermes needs Linux desktop observation or control through the computer-use-linux MCP server.",
+    "category": "devops",
+    "triggers": [
+      "computer-use-linux",
+      "computer use",
+      "linux desktop"
+    ],
+    "path": "/home/yestin/.hermes/skills/computer-use-linux"
+  },
+  {
+    "name": "claude-code-thirdparty",
+    "description": "Claude Code/CodeX第三方模型接入 + CC-Switch模型切换 + Responses↔Chat协议翻译代理(v3已修复) — 通过零依赖协议翻译代理接入DeepSeek等非Anthropic/非OpenAI模型。支持流式SSE/工具调用/推理模型/Responses API兼容。通过CC-Switch实现一键模型切换。触发词：\\\"claude code\\\"/\\\"第三方模型\\\"/\\\"deepseek claude\\\"/\\\"CC-Switch\\\"/\\\"模型切换\\\"。",
+    "category": "integration",
+    "triggers": [
+      "claude code",
+      "第三方模型",
+      "deepseek claude",
+      "CC-Switch",
+      "模型切换",
+      "claude 代理",
+      "非Anthropic模型",
+      "claude 接入 deepseek",
+      "codex",
+      "model switch",
+      "cc-switch",
+      "claude code deepseek",
+      "responses api",
+      "chat completions",
+      "developer role",
+      "codex deepseek",
+      "responses output_item.added",
+      "responses content_part.added",
+      "OutputTextDelta",
+      "SSE event sequence",
+      "protocol translation",
+      "api proxy",
+      "cc router",
+      "智能路由",
+      "engine routing"
+    ],
+    "path": "/home/yestin/.hermes/skills/claude-code-thirdparty"
+  },
+  {
+    "name": "model-registry",
+    "description": "ML model registry — version, track lineage, stage transitions (staging→production→archived). MLflow/Weights & Biases integration.",
+    "category": "mlops",
+    "triggers": [
+      "模型注册",
+      "model registry",
+      "MLflow",
+      "model version",
+      "model lineage"
+    ],
+    "path": "/home/yestin/.hermes/skills/mlops/model-registry"
+  },
+  {
+    "name": "experiment-tracker",
+    "description": "ML实验追踪 — MLflow全生命周期管理(实验记录/参数追踪/指标对比/模型注册/部署)。支持W&B/Neptune多后端，自动最佳模型选择与A/B测试分析。",
+    "category": "mlops",
+    "triggers": [
+      "experiment tracking",
+      "实验追踪",
+      "MLflow",
+      "模型训练记录",
+      "training log"
+    ],
+    "path": "/home/yestin/.hermes/skills/mlops/experiment-tracker"
+  },
+  {
+    "name": "feature-store",
+    "description": "Feature engineering storage and serving — consistent features across training and inference. Feast/Tecton patterns for offline/online serving.",
+    "category": "mlops",
+    "triggers": [
+      "特征存储",
+      "feature store",
+      "Feast",
+      "feature engineering",
+      "training-serving skew"
+    ],
+    "path": "/home/yestin/.hermes/skills/mlops/feature-store"
+  },
+  {
+    "name": "win-desktop-control",
+    "description": "Windows桌面控制 — 眼睛(截图) + 手(鼠标键盘)。通过PowerShell + pyautogui从WSL操控Windows宿主桌面。",
+    "category": "devops",
+    "triggers": [
+      "win-desktop-control",
+      "windows desktop",
+      "windows控制"
+    ],
+    "path": "/home/yestin/.hermes/skills/win-desktop-control"
+  },
+  {
+    "name": "lintlang",
+    "description": "Agent配置静态检查 — 7项结构检测器检查config/prompt/tool定义质量。零LLM调用，2ms/文件。对标 lintlang (Hermes Labs, Apache 2.0)。触发词：\"lintlang\"/\"config lint\"/\"配置检查\"。",
+    "category": "dev-tools",
+    "triggers": [
+      "lintlang",
+      "config lint",
+      "配置检查",
+      "prompt lint",
+      "检查agent配置",
+      "agent audit",
+      "self audit",
+      "技能质量审计",
+      "skill quality check",
+      "scan all skills",
+      "技能自检"
+    ],
+    "path": "/home/yestin/.hermes/skills/dev-tools/lintlang"
+  },
+  {
+    "name": "mermaid-render",
+    "description": "Zero-install Mermaid diagram renderer via kroki.io POST API. Renders .mmd code → PNG/SVG. Supports flowcharts, sequence diagrams, architecture diagrams, Gantt charts, class diagrams, and all Mermaid syntax. Fallback to local mmdc and mermaid.ink.",
+    "category": "productivity",
+    "triggers": [
+      "mermaid",
+      "渲染图表",
+      "生成流程图",
+      "时序图",
+      "架构图",
+      "render diagram",
+      "mmd",
+      "流程框架图",
+      "批量渲染",
+      "process flow",
+      "CMMI流程图",
+      "SDLC流程图",
+      "画流程图"
+    ],
+    "path": "/home/yestin/.hermes/skills/mermaid-render"
+  },
+  {
+    "name": "code-review",
+    "description": "代码审查引擎 — 6维度全面代码审查：安全漏洞/性能瓶颈/代码风格/逻辑错误/可维护性/最佳实践。支持Python/JS/TS/Go/Rust/Java多语言，输出结构化审查报告。",
+    "category": "engineering",
+    "triggers": [
+      "code review",
+      "代码审查",
+      "code audit",
+      "代码评审",
+      "PR review",
+      "安全审查",
+      "性能审查",
+      "代码质量"
+    ],
+    "path": "/home/yestin/.hermes/skills/code-review"
+  },
+  {
+    "name": "agent-compliance-audit",
+    "description": "CMMI5多Agent合规审计 — 将部署的Agent Profile/Gateway/脚本与标准框架对比，检测Agent缺失、多余、角色缺失、可执行脚本缺失、身份配置冲突。输出按严重度排序的差距报告和修复建议。",
+    "category": "cmmi5",
+    "triggers": [
+      "检查agent配置",
+      "agent合规",
+      "CMMI5 agent审计",
+      "agent是否满足框架",
+      "agent和框架对比",
+      "agent roster audit",
+      "agent compliance",
+      "多Agent是否符合规范",
+      "优化SOUL",
+      "升级SOUL",
+      "SOUL.md标准化",
+      "端口冲突",
+      "文档漂移",
+      "配置不一致",
+      "Agent端口漂移",
+      "SOP更新",
+      "文档一致性检查"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-compliance-audit"
+  },
+  {
+    "name": "secret-scanner",
+    "description": "Hardcoded secret/key scanning — detect API keys, tokens, passwords in codebase. Integrates with truffleHog, git-secrets, Gitleaks. Part of DevSecOps pipeline.",
+    "category": "security",
+    "triggers": [
+      "扫描密钥",
+      "secret scan",
+      "hardcoded key",
+      "密钥泄露",
+      "credential leak"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/secret-scanner"
+  },
+  {
+    "name": "llm-security-auditor",
+    "description": "LLM应用安全审计 — Prompt注入测试、越狱检测、数据泄露评估、模型输出安全检查。集成Garak/PurpleLlama等测试框架。触发词：\"llm security\"/\"prompt injection\"/\"red team\"/\"模型安全\"/\"llm audit\"/\"越狱测试\"。",
+    "category": "security",
+    "triggers": [
+      "llm security",
+      "prompt injection test",
+      "red team llm",
+      "模型安全审计",
+      "越狱测试",
+      "jailbreak test",
+      "llm audit",
+      "purple llama",
+      "garak scan"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/llm-security-auditor"
+  },
+  {
+    "name": "supply-chain-security",
+    "description": "供应链安全 — 依赖审计、漏洞扫描(CVE)、许可证合规、SBOM生成。支持pip/npm/maven/cargo生态系统，含SBOM生成(SPDX/CycloneDX)、过时包检测、风险评估与修复优先级。",
+    "category": "security",
+    "triggers": [
+      "supply chain",
+      "供应链安全",
+      "依赖审计",
+      "dependency audit",
+      "dependency scan",
+      "CVE check",
+      "SBOM",
+      "依赖漏洞",
+      "scan dependencies",
+      "check vulnerabilities",
+      "audit packages",
+      "security audit",
+      "license check",
+      "outdated packages"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/supply-chain-security"
+  },
+  {
+    "name": "iac-security-scanner",
+    "description": "Infrastructure as Code安全扫描 — 集成Checkov/TFsec/Kics扫描Terraform/CloudFormation/K8s manifests的安全合规问题。触发词：\"checkov\"/\"tfsec\"/\"iac scan\"/\"基础设施安全\"/\"terraform security\"/\"kics\"。",
+    "category": "security",
+    "triggers": [
+      "checkov",
+      "tfsec",
+      "iac scan",
+      "基础设施安全",
+      "terraform security",
+      "kics",
+      "cloudformation security",
+      "k8s security scan",
+      "terrascan"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/iac-security-scanner"
+  },
+  {
+    "name": "threat-model",
+    "description": "STRIDE threat modeling — identify threats by Spoofing/Tampering/Repudiation/InfoDisclosure/DoS/Elevation. Generate threat model reports and DFD diagrams.",
+    "category": "security",
+    "triggers": [
+      "威胁建模",
+      "threat model",
+      "STRIDE",
+      "安全架构评审",
+      "risk assessment"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/threat-model"
+  },
+  {
+    "name": "compliance-checker",
+    "description": "Regulatory compliance checker — GDPR, SOC2, HIPAA, PCI-DSS, ISO27001. Audit configuration, data handling, access controls against compliance frameworks.",
+    "category": "security",
+    "triggers": [
+      "合规检查",
+      "compliance",
+      "GDPR",
+      "SOC2",
+      "ISO27001",
+      "audit readiness"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/compliance-checker"
+  },
+  {
+    "name": "sast-scanner",
+    "description": "Static Application Security Testing — 集成Semgrep/CodeQL/SonarQube进行源码安全扫描，自动分析结果并生成修复建议。触发词：\"sast\"/\"static analysis\"/\"代码安全扫描\"/\"semgrep\"/\"codeql\"/\"sonarqube\"。",
+    "category": "security",
+    "triggers": [
+      "sast",
+      "static analysis",
+      "代码安全扫描",
+      "semgrep scan",
+      "codeql scan",
+      "sonarqube",
+      "security scan",
+      "vulnerability scan"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/sast-scanner"
+  },
+  {
+    "name": "container-security-scanner",
+    "description": "容器/镜像安全扫描 — 集成Trivy/Grype/Docker Scout扫描容器镜像漏洞、恶意软件、敏感信息。CI/CD集成+修复建议。触发词：\"trivy\"/\"grype\"/\"container scan\"/\"镜像扫描\"/\"docker security\"/\"容器安全\"。",
+    "category": "security",
+    "triggers": [
+      "trivy scan",
+      "grype",
+      "container scan",
+      "镜像扫描",
+      "docker security",
+      "容器安全",
+      "image vulnerability",
+      "docker scout",
+      "容器漏洞"
+    ],
+    "path": "/home/yestin/.hermes/skills/security/container-security-scanner"
+  },
+  {
+    "name": "api-dev-tools",
+    "description": "API开发工具集 — OpenAPI/Swagger spec驱动的Mock服务器生成与类型安全的API客户端代码生成。支持Prism/json-server/WireMock多Mock后端，TypeScript/Python/Go/Java多语言客户端输出。",
+    "category": "dev-experience",
+    "triggers": [
+      "mock api",
+      "mock server",
+      "api stub",
+      "openapi mock",
+      "swagger mock",
+      "fake api",
+      "生成API客户端",
+      "OpenAPI client",
+      "Swagger codegen",
+      "API SDK",
+      "typed client"
+    ],
+    "path": "/home/yestin/.hermes/skills/dev-experience/api-dev-tools"
+  },
+  {
+    "name": "db-migration-helper",
+    "description": "Database migration assistance — generate, validate, and test schema migrations. Flyway/Alembic/Prisma patterns. Rollback planning.",
+    "category": "dev-experience",
+    "triggers": [
+      "数据库迁移",
+      "DB migration",
+      "Alembic",
+      "Flyway",
+      "schema change"
+    ],
+    "path": "/home/yestin/.hermes/skills/dev-experience/db-migration-helper"
+  },
+  {
+    "name": "skill-library-audit",
+    "description": "技能库结构性健康审计 — 扫描整个技能库的文件系统结构，检查目录完整性、scripts/references覆盖率、YAML frontmatter、空目录、名称冲突。自动修复发现的问题。输出统计+问题+修复摘要。",
+    "category": "meta",
+    "triggers": [
+      "技能库审计 / skill audit / scan skills",
+      "技能库结构检查 / skill library health",
+      "技能统计 / skill stats / skills stats",
+      "清理技能库 / clean skills",
+      "技能升级扫描 / skill upgrade scan",
+      "技能库检查 / skill library check",
+      "全量技能扫描 / full skill scan",
+      "技能目录清理 / skill dir cleanup",
+      "深度分析技能库 / deep skill audit",
+      "技能库深度诊断 / deep diagnostic",
+      "进化引擎深度分析 / evolution deep analysis",
+      "技能库健康报告 / skill library report",
+      "P0/P1/P2改进 / improvement roadmap",
+      "深入检查技能库 / inspect skills deeply"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/skill-library-audit"
+  },
+  {
+    "name": "knowledge-index-maintain",
+    "description": "Markdown knowledge base index maintenance — audit, rebuild, and clean up the agent's local ~/.hermes/knowledge/index.json when it becomes corrupted, inconsistent, or stale. Scans all learned/ personality/ root .md files, auto-categorizes by direction, and generates a clean index.",
+    "category": "meta",
+    "triggers": [
+      "知识库索引修复 / knowledge index maintenance",
+      "rebuild index / 重建索引",
+      "index.json corruption / 索引损坏",
+      "missing entries in index / 索引缺少条目",
+      "broken filename / 坏文件名",
+      "knowledge directory cleanup / 知识库清理",
+      "index audit / 索引审计",
+      "stale index / 过期索引",
+      "知识库体检 / knowledge health check",
+      "方向分类不对 / wrong direction classification",
+      "When index.json has mixed data structures (entries array + flat keys)",
+      "After many learning cycles have accumulated without full index rebuild",
+      "Periodically (weekly recommended) to catch incremental index drift",
+      "duplicate learned files / 学习文件重复 / deduplicate knowledge / 知识库去重",
+      "content hash dupes / 重复内容检测 / too many learned files / 学习文件过多"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/knowledge-index-maintain"
+  },
+  {
+    "name": "gbrain-metrics-extractor",
+    "description": "Extract key GBrain metrics (risk level, evolution score, signals count) in concise format for quick status reporting and health monitoring.",
+    "category": "meta",
+    "triggers": [
+      "GBrain状态",
+      "gbrain指标",
+      "脑状态检查",
+      "风险等级",
+      "进化分数",
+      "信号数量",
+      "gbrain health check",
+      "gbrain metrics",
+      "brain status",
+      "risk evolution signals",
+      "check gbrain status",
+      "gbrain snapshot"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/gbrain-metrics-extractor"
+  },
+  {
+    "name": "fullstack-autonomous-learning",
+    "description": "全栈自主学习双引擎系统 — 课程引擎(Transcendence满级)+6方向自主探索(每5分钟)。涵盖TECH/SOFT/META/SEC四维全栈能力，自动轮转、产出驱动、无果即弃。",
+    "category": "meta",
+    "triggers": [
+      "全栈自主学习",
+      "fullstack learning",
+      "自主学习",
+      "学习引擎",
+      "autonomous learning",
+      "双引擎",
+      "课程学习",
+      "探索学习",
+      "开启学习",
+      "学习系统",
+      "Cron学习不写入知识库",
+      "学习产出没有写入BookStack",
+      "Cron报告已写入但实际没有",
+      "模型不执行terminal命令",
+      "cron model hallucination",
+      "脚本学习 pipeline",
+      "cron skills陷阱",
+      "cron prompt太长不做事",
+      "学习产出没有使用模板",
+      "知识库内容不是模板格式",
+      "fullstack-learn 内容太简单",
+      "学习笔记没有8个模块",
+      "template compliance",
+      "fill_template",
+      "fill_template()",
+      "fullstack-learn.py 修复"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/fullstack-autonomous-learning"
+  },
+  {
+    "name": "memory-engine",
+    "description": "SQLite + ONNX hybrid memory engine — structured storage, 3-layer hybrid retrieval (Vector+TF-IDF+FTS5), LLM rerank, auto-extraction, MEMORY.md sync. ONNX all-MiniLM-L6-v2 384-dim real embeddings with NumpyEmbedder fallback. Letta architecture + Mem0 automation inspired.",
+    "category": "meta",
+    "triggers": [
+      "记忆搜索",
+      "recall",
+      "remember",
+      "memory search",
+      "mem search",
+      "search memory",
+      "记忆查询",
+      "查记忆",
+      "记忆升级",
+      "长期记忆",
+      "memory upgrade",
+      "对标记忆",
+      "记忆机制",
+      "记忆方案",
+      "memory architecture",
+      "记忆评估",
+      "记忆选型",
+      "hindsight",
+      "retain",
+      "语义记忆",
+      "向量记忆",
+      "flowstate",
+      "qmd",
+      "预取记忆",
+      "anticipatory memory",
+      "记忆提取",
+      "会话记忆",
+      "extract memory",
+      "记忆管道"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/memory-engine"
+  },
+  {
+    "name": "meta-evolution",
+    "description": "Autonomous continuous self-evolution engine. Analyzes own capabilities, detects weaknesses, generates improvement plans, executes upgrades, verifies outcomes. Makes Hermes progressively stronger without human intervention.",
+    "category": "meta",
+    "triggers": [
+      "自主进化",
+      "持续迭代",
+      "自我升级",
+      "变得最强",
+      "self-evolution",
+      "auto-upgrade",
+      "continuous improvement",
+      "agent self-improvement cycle",
+      "继续",
+      "continue evolution",
+      "gepa",
+      "进化技能",
+      "evolve skill",
+      "DSPy优化",
+      "prompt evolution",
+      "技能进化",
+      "prism",
+      "super hermes",
+      "元分析",
+      "深度分析",
+      "prism-scan",
+      "prism-full",
+      "self prompt",
+      "dojo",
+      "道场",
+      "训练场",
+      "improve skills",
+      "weak skills",
+      "performance monitor"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/meta-evolution"
+  },
+  {
+    "name": "personality-learning",
+    "description": "Autonomous personality soft-skills self-improvement cycle. Self-audits 8 SOUL.md personality criteria, researches leadership/EQ/communication/efficiency dimensions, generates scored growth reports with quantified action items. Runs weekly via cron.",
+    "category": "meta",
+    "triggers": [
+      "个性能力自主学习",
+      "personality learning",
+      "软技能提升",
+      "personality self-improvement",
+      "人格进化",
+      "自我人格评估",
+      "全栈能力自主学习",
+      "learning * 必有果",
+      "learning * 无果即弃",
+      "每5分钟触发",
+      "quick introspect",
+      "quick self-reflection"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/personality-learning"
+  },
+  {
+    "name": "skill-claw",
+    "description": "技能库自动进化/去重/改进 — 对标 SkillClaw (AMAP-ML, 705★, arXiv论文)。从实际会话数据中自动演化技能，去重，提升质量。触发词：\"skillclaw\"/\"技能进化\"/\"skill evolve\"/\"去重技能\"。",
+    "category": "meta",
+    "triggers": [
+      "skillclaw",
+      "技能进化",
+      "skill evolve",
+      "去重技能",
+      "skill deduplicate",
+      "SkillClaw",
+      "save as skill",
+      "记住这个流程",
+      "生成技能",
+      "skill factory"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/skill-claw"
+  },
+  {
+    "name": "system-health-report",
+    "description": "Multi-dimensional system health synthesis audit. Runs parallel diagnostic scripts across all agent subsystems (healer, evolution, audit, memory) and produces a unified commander-facing dashboard report with scores, progress bars, and actionable insights.",
+    "category": "meta",
+    "triggers": [
+      "全部推进",
+      "全维度检查",
+      "全面审计",
+      "全局状态",
+      "综合报告",
+      "check everything",
+      "full audit",
+      "health dashboard",
+      "系统状态",
+      "状态汇报",
+      "all systems check",
+      "继续",
+      "继续优化",
+      "继续评估",
+      "继续升级",
+      "继续迭代优化",
+      "继续推进",
+      "自主模式",
+      "autonomous mode",
+      "按计划推进",
+      "安全审计",
+      "security audit",
+      "security posture",
+      "安全检查",
+      "授权",
+      "所有优化",
+      "无需确认",
+      "无需审批",
+      "直接执行",
+      "批准执行",
+      "all optimizations",
+      "no confirmation needed",
+      "authorize all",
+      "全服务检查 / all services check",
+      "外部服务状态 / external services status",
+      "BookStack/Dashboard/Wiki 健康",
+      "service health",
+      "准备重启",
+      "重启了",
+      "restart",
+      "reboot",
+      "shutdown",
+      "关机",
+      "晨检",
+      "morning check",
+      "早上好",
+      "good morning",
+      "晨间状态",
+      "morning status",
+      "启动",
+      "startup",
+      "系统启动",
+      "全自主启动",
+      "system startup"
+    ],
+    "path": "/home/yestin/.hermes/skills/meta/system-health-report"
+  },
+  {
+    "name": "observability-stack",
+    "description": "可观测性栈 — 统一仪表板生成、日志聚合分析与告警管理。支持Grafana/Kibana/Datadog多平台，ELK Stack/Loki+Grafana多日志后端，Prometheus Alertmanager告警路由与升级策略。一站式服务观测方案。",
+    "category": "observability",
+    "triggers": [
+      "dashboard build",
+      "仪表板生成",
+      "grafana dashboard",
+      "kibana dashboard",
+      "monitoring dashboard",
+      "可观测仪表板",
+      "dashboard as code",
+      "log aggregation",
+      "日志聚合",
+      "centralized logging",
+      "elk stack",
+      "loki",
+      "log analysis",
+      "日志查询",
+      "log shipping",
+      "alert manager",
+      "告警管理",
+      "alert routing",
+      "prometheus alertmanager",
+      "告警路由",
+      "incident alert",
+      "alert grouping",
+      "on-call",
+      "告警静默",
+      "observability",
+      "可观测性"
+    ],
+    "path": "/home/yestin/.hermes/skills/observability/observability-stack"
+  },
+  {
+    "name": "agent-team-dashboard",
+    "description": "AI Agent团队状态可视化仪表板 — 单文件HTML/CSS/JS Vibe Coding建造，展示员工状态、部门分区、实时讨论、活动流，零依赖零构建工具。",
+    "category": "observability",
+    "triggers": [
+      "可视化办公室",
+      "agent可视化",
+      "员工状态面板",
+      "team dashboard",
+      "团队大屏",
+      "办公室大屏",
+      "实时状态",
+      "agent监控面板",
+      "团队状态",
+      "搞钱 dashboard",
+      "visual office",
+      "employee status board",
+      "AI员工监控",
+      "部门分区面板"
+    ],
+    "path": "/home/yestin/.hermes/skills/observability/agent-team-dashboard"
+  },
+  {
+    "name": "code-owner",
+    "description": "代码所有者分配 — 基于CODEOWNERS文件的自动代码审查者分配，团队权限管理，变更影响分析，PR自动分配Reviewer。",
+    "category": "collaboration",
+    "triggers": [
+      "code owner",
+      "代码所有者",
+      "codeowners",
+      "reviewer assignment",
+      "PR reviewer",
+      "自动分配reviewer",
+      "CODEOWNERS",
+      "team ownership"
+    ],
+    "path": "/home/yestin/.hermes/skills/collaboration/code-owner"
+  },
+  {
+    "name": "release-manager",
+    "description": "发布管理 — 统一变更日志管理(CHANGELOG.md全生命周期)与发布说明生成。支持Keep a Changelog标准格式、语义化版本关联、git commit自动提取、多格式输出(Markdown/HTML/JSON)、CI/CD集成。",
+    "category": "collaboration",
+    "triggers": [
+      "release",
+      "发布管理",
+      "changelog",
+      "release notes",
+      "发布说明",
+      "CHANGELOG",
+      "版本发布",
+      "semantic version",
+      "version bump",
+      "publish release"
+    ],
+    "path": "/home/yestin/.hermes/skills/collaboration/release-manager"
+  },
+  {
+    "name": "markdown-viewer",
+    "description": "Create rich diagrams, data visualizations, technical architecture views, and editorial content cards directly in Markdown using the Markdown Viewer Agent Skills pack. Use for Mermaid-like diagram requests, PlantUML architecture diagrams, Vega charts, JSON Canvas maps, infographics, UML, cloud/network/security/data/IoT diagrams, and polished Markdown documentation visuals.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/markdown-viewer"
+  },
+  {
+    "name": "youtube-full",
+    "description": "完整YouTube工具包 — 字幕提取/视频搜索/频道浏览/播单解析/频道内搜索。通过TranscriptAPI驱动，无需Google API Key或浏览器。对标 ZeroPointRepo youtube-full (技能周精选)。触发词：\"youtube\"/\"视频字幕\"/\"transcript\"/\"YouTube搜索\"。",
+    "category": "media-skills",
+    "triggers": [
+      "youtube",
+      "视频字幕",
+      "transcript",
+      "YouTube搜索",
+      "频道视频",
+      "播单",
+      "playlist"
+    ],
+    "path": "/home/yestin/.hermes/skills/media-skills/youtube-full"
+  },
+  {
+    "name": "multi-profile-platform-rollout",
+    "description": "Batch platform feature enable/disable across all Hermes Agent profiles — Feishu/Slack/Discord/Telegram platform configuration changes with backup, gateway restart, verification, and cleanup.",
+    "category": "devops",
+    "triggers": [
+      "multi-profile-platform-rollout",
+      "platform rollout",
+      "批量配置"
+    ],
+    "path": "/home/yestin/.hermes/skills/multi-profile-platform-rollout"
+  },
+  {
+    "name": "learning-cycle",
+    "description": "6-direction autonomous learning cycle — runs via cron every 5 minutes, rotates through tech/security/engineering/personality/toolchain/knowledge, produces verifiable output or stays silent.",
+    "category": "meta",
+    "triggers": [
+      "学习循环",
+      "learning cycle",
+      "每5分钟触发",
+      "学习必有果",
+      "无果即弃",
+      "cron learning",
+      "自主学习循环",
+      "learning rotation",
+      "轮转学习"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/learning-cycle"
+  },
+  {
+    "name": "batch-quality-upgrade",
+    "description": "Systematic quality audit + batch upgrade of skill scripts AND SKILL.md structure validation. Runs all check.py validators across the skill library, detects structural failures (missing Overview/Purpose sections, broken file references, misplaced scripts, missing directories), batch-repairs common failures, and generates a structured report. Also covers static code quality gates (line count, CLI presence, test coverage).",
+    "category": "meta",
+    "triggers": [
+      "audit all SDLC skills",
+      "batch upgrade scripts",
+      "质量审计",
+      "批量升级",
+      "quality audit all",
+      "upgrade skill category",
+      "check scripts below threshold",
+      "raise quality bar",
+      "bring all scripts to standard",
+      "continuous upgrade",
+      "skill health check",
+      "代码审计升级",
+      "skill library audit",
+      "audit all skills",
+      "全面审计技能",
+      "153 skills",
+      "SKILL.md batch fix",
+      "批量修复SKILL.md",
+      "comprehensive skill audit"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/batch-quality-upgrade"
+  },
+  {
+    "name": "terraform-generator",
+    "description": "IaC generation — generate Terraform/OpenTofu configs for AWS/GCP/Azure. Auto-detect existing infrastructure, generate import blocks.",
+    "category": "devops",
+    "triggers": [
+      "生成Terraform",
+      "IaC",
+      "infrastructure as code",
+      "terraform",
+      "云资源配置"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/terraform-generator"
+  },
+  {
+    "name": "git-guardrails",
+    "description": "阻止危险git命令 — 安装PreToolUse钩子拦截push/reset --hard/clean/branch -D/checkout .等破坏性操作。对齐 Matt Pocock。触发词：\"git guard\"/\"git防护\"/\"block git\"/\"阻止push\"/\"git安全\"。",
+    "category": "engineering",
+    "triggers": [
+      "git guard",
+      "git防护",
+      "block git",
+      "阻止push",
+      "git安全",
+      "guardrails",
+      "dangerous git"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/git-guardrails"
+  },
+  {
+    "name": "visual-regression",
+    "description": "Visual regression testing — screenshot comparison, pixel diff, layout shift detection. Playwright/Storybook/Percy/Chromatic patterns.",
+    "category": "quality",
+    "triggers": [
+      "视觉回归",
+      "visual regression",
+      "UI test",
+      "screenshot diff",
+      "像素对比"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/visual-regression"
+  },
+  {
+    "name": "virtual-team",
+    "description": "gstack-inspired virtual engineering team — CEO, Engineering Manager, Designer, Reviewer, QA Lead, Security Officer, Release Engineer. 8 specialist roles with slash commands, all Markdown, all free. Transforms Hermes into a complete software factory.",
+    "category": "meta",
+    "triggers": [
+      "虚拟团队",
+      "virtual team",
+      "ceo review",
+      "eng review",
+      "ship it",
+      "office hours",
+      "gstack"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/virtual-team"
+  },
+  {
+    "name": "data-pipeline",
+    "description": "ELT/ETL data pipeline generation and management — extract, transform, load with validation, monitoring, and error handling. Airflow/Prefect/Dagster patterns.",
+    "category": "mlops",
+    "triggers": [
+      "数据管道",
+      "ETL",
+      "ELT",
+      "data pipeline",
+      "Airflow",
+      "data ingestion"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/data-pipeline"
+  },
+  {
+    "name": "multimodal-fusion",
+    "description": "Cross-modal orchestration — combine vision, voice, browser, and code understanding for tasks like UI development, design review, and diagram-to-code generation.",
+    "category": "dev",
+    "triggers": [
+      "多模态 / multimodal",
+      "截图生成代码 / screenshot to code",
+      "视觉分析 / visual analysis",
+      "设计稿转代码 / design to code",
+      "voice coding"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/multimodal-fusion"
+  },
+  {
+    "name": "colony-skill",
+    "description": "AI+人类协作社区 — 帖子/评论/私信/投票/预测/辩论/成就/市场。对标 TheColonyCC。触发词：\"colony\"/\"社区协作\"。",
+    "category": "community",
+    "triggers": [
+      "colony",
+      "社区协作",
+      "check colony",
+      "post to colony"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/colony-skill"
+  },
+  {
+    "name": "pr-automation",
+    "description": "PR automation — auto-generate PR title/description/changelog, auto-review PR code, auto-respond to review comments. GitHub/GitLab integration ready.",
+    "category": "agent-skills",
+    "triggers": [
+      "PR automation",
+      "自动PR",
+      "pr review",
+      "pull request",
+      "generate pr"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/pr-automation"
+  },
+  {
+    "name": "evey-plugins",
+    "description": "Evey的23个Hermes插件集成指南 — 自治/可观测/质量/学习/通信全覆盖。对标 42-evey/hermes-plugins (MIT)。触发词：\"evey\"/\"evey插件\"/\"自主引擎\"/\"cost guard\"/\"telemetry\"。",
+    "category": "productivity",
+    "triggers": [
+      "evey",
+      "evey插件",
+      "自主引擎",
+      "cost guard",
+      "telemetry",
+      "evey-autonomy"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/evey-plugins"
+  },
+  {
+    "name": "dataset-validator",
+    "description": "数据集质量验证 — 检测缺失值、异常值、标签错误、数据泄露、分布偏移、偏见/公平性问题。支持CSV/JSON/Parquet/Image/Text多格式。触发词：\"dataset validate\"/\"数据验证\"/\"data quality\"/\"clean data\"/\"数据质量检查\"/\"偏见识別\"。",
+    "category": "engineering",
+    "triggers": [
+      "dataset validate",
+      "数据验证",
+      "data quality check",
+      "clean data",
+      "数据质量检查",
+      "偏见识別",
+      "data drift",
+      "dataset bias",
+      "data leakage check"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/dataset-validator"
+  },
+  {
+    "name": "grill-with-docs",
+    "description": "领域模型面试 — 挑战计划vs已有领域语言，精炼术语，决策结晶时内联更新CONTEXT.md和ADR。对标 Matt Pocock grill-with-docs。触发词：\"grill with docs\"/\"领域面试\"/\"领域建模\"。",
+    "category": "engineering",
+    "triggers": [
+      "grill with docs",
+      "领域面试",
+      "领域建模",
+      "domain interview",
+      "grill with context",
+      "CONTEXT.md"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/grill-with-docs"
+  },
+  {
+    "name": "contract-test",
+    "description": "契约测试 — 确保服务间API契约一致性，防止消费者/提供者契约断裂。支持Pact/Spring Cloud Contract多框架，微服务集成验证。",
+    "category": "testing",
+    "triggers": [
+      "contract test",
+      "契约测试",
+      "pact test",
+      "consumer-driven contract",
+      "CDC testing",
+      "provider verification",
+      "api contract validation"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/contract-test"
+  },
+  {
+    "name": "gepa-evolution",
+    "description": "DSPy+GEPA技能/提示词进化 — 通过反思式进化搜索自动优化SKILL.md/工具描述/系统提示词。ICLR 2026 Oral，无GPU，$2-10/run。对标 NousResearch/hermes-agent-self-evolution。触发词：\"gepa\"/\"进化技能\"/\"evolve skill\"/\"DSPy优化\"。",
+    "category": "evolution",
+    "triggers": [
+      "gepa",
+      "进化技能",
+      "evolve skill",
+      "DSPy优化",
+      "prompt evolution",
+      "技能进化"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/gepa-evolution"
+  },
+  {
+    "name": "tui-dashboard",
+    "description": "Terminal UI dashboard for real-time monitoring — live metrics display (CPU/memory/disk/network), task progress widgets, agent health status, cron job status, recent activity feed. Uses rich/textual or curses-based rendering.",
+    "category": "uncategorized",
+    "triggers": [
+      "dashboard",
+      "live monitor",
+      "system status",
+      "tui",
+      "real-time metrics",
+      "resource monitor",
+      "agent health",
+      "task progress"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/tui-dashboard"
+  },
+  {
+    "name": "hitl-checkpoint",
+    "description": "Human-in-the-Loop checkpoint — Agent pauses at critical decision points for human approval before continuing. Inspired by LangGraph interrupt/resume pattern.",
+    "category": "agent-skills",
+    "triggers": [
+      "human in the loop",
+      "人工审批",
+      "checkpoint",
+      "approval gate",
+      "决策点"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/hitl-checkpoint"
+  },
+  {
+    "name": "accessibility-audit",
+    "description": "Web accessibility auditing — WCAG 2.1 AA/AAA compliance, axe-core, Lighthouse, screen reader testing.",
+    "category": "quality",
+    "triggers": [
+      "无障碍审计",
+      "accessibility",
+      "a11y",
+      "WCAG",
+      "可访问性"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/accessibility-audit"
+  },
+  {
+    "name": "hermes-dojo",
+    "description": "Agent道场 — 监控性能→识别薄弱技能→自动修复→生成改进报告。对标 Yonkoo11/hermes-dojo (Hackathon)。触发词：\"dojo\"/\"道场\"/\"训练场\"/\"improve skills\"。",
+    "category": "evolution",
+    "triggers": [
+      "dojo",
+      "道场",
+      "训练场",
+      "improve skills",
+      "weak skills",
+      "performance monitor"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/hermes-dojo"
+  },
+  {
+    "name": "log-aggregator",
+    "description": "日志聚合分析 — 集中收集/解析/查询/告警应用程序日志。支持ELK Stack/Loki+Grafana/Vector多后端，实时搜索与历史分析。",
+    "category": "observability",
+    "triggers": [
+      "log aggregation",
+      "日志聚合",
+      "centralized logging",
+      "elk stack",
+      "loki",
+      "log analysis",
+      "日志查询",
+      "log shipping",
+      "log parser"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/log-aggregator"
+  },
+  {
+    "name": "load-test-generator",
+    "description": "Load/stress test generation — k6, Locust, Artillery scripts. Ramp-up patterns, scenario design, threshold assertions.",
+    "category": "quality",
+    "triggers": [
+      "负载测试",
+      "load test",
+      "k6",
+      "stress test",
+      "性能测试"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/load-test-generator"
+  },
+  {
+    "name": "memory-tier",
+    "description": "Agent memory architecture strategy and design — competitive benchmarking, dependency-cost evaluation, upgrade planning. Design layer for Hermes memory systems. Implementation in memory-engine skill.",
+    "category": "meta",
+    "triggers": [
+      "记忆升级",
+      "长期记忆",
+      "memory upgrade",
+      "对标记忆",
+      "记忆机制",
+      "记忆方案",
+      "memory architecture",
+      "记忆评估",
+      "记忆选型"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/memory-tier"
+  },
+  {
+    "name": "performance-profiler",
+    "description": "Performance profiling — CPU, memory, I/O profiling with flame graphs. Python (py-spy), Node.js (clinic), Go (pprof), JVM (async-profiler).",
+    "category": "quality",
+    "triggers": [
+      "性能分析",
+      "profiling",
+      "flame graph",
+      "CPU分析",
+      "memory leak"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/performance-profiler"
+  },
+  {
+    "name": "execplan",
+    "description": "执行计划模式 — 复杂任务从设计到实现的完整执行计划，含进度追踪、检查点、失败恢复。对标 tiann/execplan-skill。触发词：\"execplan\"/\"执行计划\"/\"长任务\"/\"long-running\"/\"track progress\"。",
+    "category": "engineering",
+    "triggers": [
+      "execplan",
+      "执行计划",
+      "长任务",
+      "long-running",
+      "track progress",
+      "执行规划"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/execplan"
+  },
+  {
+    "name": "smart-compress",
+    "description": "Intelligent session compression — auto-summarize long conversations, preserve key decisions and code changes, inject structured summary into new sessions.",
+    "category": "agent-skills",
+    "triggers": [
+      "compress",
+      "压缩",
+      "compact",
+      "summarize",
+      "摘要"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/smart-compress"
+  },
+  {
+    "name": "dynamic-router",
+    "description": "Conditional task router based on execution results. Dynamically choose next step like LangGraph conditional edges (pass->deploy, fail->rollback).",
+    "category": "agent-skills",
+    "triggers": [
+      "conditional",
+      "动态路由",
+      "if else",
+      "workflow branch",
+      "条件分支"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/dynamic-router"
+  },
+  {
+    "name": "api-mock",
+    "description": "API mock server generation from OpenAPI/Swagger specs — auto-generate mock endpoints, dynamic response generation based on examples, request validation, stateful mock (CRUD).",
+    "category": "agent-skills",
+    "triggers": [
+      "mock api",
+      "mock server",
+      "api stub",
+      "openapi mock",
+      "swagger mock",
+      "fake api"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/api-mock"
+  },
+  {
+    "name": "web-search-plus",
+    "description": "多提供商智能路由搜索 — 10提供商(Serper/Brave/Tavily/Exa/Perplexity等)，自动路由+自适应回退+1h缓存。对标 robbyczgw-cla/hermes-web-search-plus。触发词：\"web search plus\"/\"多源搜索\"/\"deep search\"/\"Exa\"。",
+    "category": "integration",
+    "triggers": [
+      "web search plus",
+      "多源搜索",
+      "deep search",
+      "Exa",
+      "multi provider search",
+      "搜索增强"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/web-search-plus"
+  },
+  {
+    "name": "refactor-suggester",
+    "description": "Intelligent refactoring suggestion engine — code smell detection, complexity analysis, extract method/class suggestions.",
+    "category": "dev-experience",
+    "triggers": [
+      "重构建议",
+      "code smell",
+      "refactor",
+      "代码坏味",
+      "improve code"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/refactor-suggester"
+  },
+  {
+    "name": "flowstate-qmd",
+    "description": "预期式记忆层 — SQLite+FTS5+向量存储+预取缓存，Agent主动拉取上下文。对标 flowstate-qmd。触发词：\"flowstate\"/\"qmd\"/\"预取记忆\"。",
+    "category": "memory",
+    "triggers": [
+      "flowstate",
+      "qmd",
+      "预取记忆",
+      "anticipatory memory"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/flowstate-qmd"
+  },
+  {
+    "name": "fuzz-tester",
+    "description": "模糊测试 — 自动生成随机/变异输入对程序进行压力测试，检测崩溃、内存泄漏、未处理异常、安全漏洞。支持AFL/LLVM libFuzzer/Python Atheris多引擎。",
+    "category": "testing",
+    "triggers": [
+      "fuzz test",
+      "模糊测试",
+      "fuzzing",
+      "random input testing",
+      "afl",
+      "libfuzzer",
+      "atheris",
+      "stress test with random data"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/fuzz-tester"
+  },
+  {
+    "name": "changelog-manager",
+    "description": "变更日志管理 — CHANGELOG.md全生命周期管理，Keep a Changelog标准格式，语义化版本自动关联，历史版本回溯，多分支变更合并，发布时自动冻结。",
+    "category": "collaboration",
+    "triggers": [
+      "changelog",
+      "变更日志",
+      "CHANGELOG",
+      "keep a changelog",
+      "changelog manager",
+      "管理changelog",
+      "版本历史",
+      "changelog update"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/changelog-manager"
+  },
+  {
+    "name": "dependency-audit",
+    "description": "Dependency supply chain security audit — vulnerability scanning (CVE), license compliance, SBOM generation. Supports npm, pip, maven, cargo ecosystems.",
+    "category": "security",
+    "triggers": [
+      "依赖审计",
+      "supply chain",
+      "CVE check",
+      "SBOM",
+      "依赖漏洞"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/dependency-audit"
+  },
+  {
+    "name": "api-client-gen",
+    "description": "API client code generation from OpenAPI/Swagger specs — generate typed clients for TypeScript, Python, Go, Java.",
+    "category": "dev-experience",
+    "triggers": [
+      "生成API客户端",
+      "OpenAPI client",
+      "Swagger codegen",
+      "API SDK",
+      "typed client"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/api-client-gen"
+  },
+  {
+    "name": "alert-manager",
+    "description": "告警管理 — 集中告警聚合、路由、分组、静默、升级策略。支持Prometheus Alertmanager/Grafana On-Call/自定义Webhook多后端，告警去重与责任到人。",
+    "category": "observability",
+    "triggers": [
+      "alert manager",
+      "告警管理",
+      "alert routing",
+      "prometheus alertmanager",
+      "告警路由",
+      "incident alert",
+      "alert grouping",
+      "on-call",
+      "告警静默"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/alert-manager"
+  },
+  {
+    "name": "chainlink-agent-skills",
+    "description": "Chainlink官方技能套件 — CRE/CCIP/Data Feeds/Data Streams/ACE，涵盖预言机数据/跨链/合规。对标 smartcontractkit/chainlink-agent-skills (production)。触发词：\"chainlink\"/\"预言机\"/\"CCIP\"/\"data feeds\"/\"ACE\"。",
+    "category": "integration",
+    "triggers": [
+      "chainlink",
+      "预言机",
+      "CCIP",
+      "data feeds",
+      "ACE",
+      "智能合约",
+      "oracle",
+      "跨链"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/chainlink-agent-skills"
+  },
+  {
+    "name": "super-hermes",
+    "description": "元推理Agent — 自写分析提示词(prisms)，报告发现+盲点，跨运行学习。40轮研究+1000+实验验证。对标 Cranot/super-hermes。触发词：\"prism\"/\"super hermes\"/\"元分析\"/\"深度分析\"。",
+    "category": "evolution",
+    "triggers": [
+      "prism",
+      "super hermes",
+      "元分析",
+      "深度分析",
+      "prism-scan",
+      "prism-full",
+      "self prompt"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/super-hermes"
+  },
+  {
+    "name": "hindsight-memory",
+    "description": "长期记忆层 — retain/recall/reflect工作流，语义+图谱+时序检索。替代已删除的mnemo-hermes (eleion-ai仓库404)。对标 Vectorize hindsight (production级)。触发词：\"hindsight\"/\"长期记忆\"/\"retain recall\"/\"语义记忆\"。",
+    "category": "memory",
+    "triggers": [
+      "hindsight",
+      "长期记忆",
+      "retain",
+      "recall",
+      "语义记忆",
+      "memory upgrade",
+      "向量记忆"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/hindsight-memory"
+  },
+  {
+    "name": "semantic-search",
+    "description": "Semantic code search using embedding similarity — understand code intent, not just keywords. Find relevant code by describing what it does. Inspired by Claude Code semantic search and Cursor codebase indexing.",
+    "category": "agent-skills",
+    "triggers": [
+      "语义搜索",
+      "semantic search",
+      "找代码",
+      "搜索代码",
+      "where is",
+      "find code that",
+      "code for"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/semantic-search"
+  },
+  {
+    "name": "caveman-mode",
+    "description": "极简通信模式 — 砍掉75% token消耗，保留全部技术精度。对标 Matt Pocock caveman skill。触发词：\"caveman\"/\"极简模式\"/\"caveman mode\"/\"less tokens\"/\"说人话简短版\"。",
+    "category": "productivity",
+    "triggers": [
+      "caveman",
+      "caveman mode",
+      "极简模式",
+      "less tokens",
+      "be brief",
+      "说人话",
+      "简短"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/caveman-mode"
+  },
+  {
+    "name": "knowledge-base",
+    "description": "RAG-enhanced knowledge base — index docs, auto-retrieve relevant context for tasks. Supports local markdown/PDF and MCP-connected knowledge bases.",
+    "category": "dev",
+    "triggers": [
+      "知识库 / knowledge base",
+      "检索文档 / retrieve docs",
+      "查询项目文档 / query project documentation",
+      "RAG搜索 / RAG search",
+      "内部文档 / internal docs"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/knowledge-base"
+  },
+  {
+    "name": "task-dag",
+    "description": "Task dependency graph — define tasks with dependencies, auto-schedule parallel execution, detect cycles. DAG visualization with Mermaid output.",
+    "category": "agent-skills",
+    "triggers": [
+      "task dag",
+      "依赖图",
+      "task dependency",
+      "并行任务",
+      "workflow dag"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/task-dag"
+  },
+  {
+    "name": "ml-pipeline-orchestrator",
+    "description": "ML训练pipeline编排 — 数据加载→预处理→训练→评估→部署的完整流水线。支持Kubeflow/Airflow/Prefect/Local多后端。触发词：\"ml pipeline\"/\"training pipeline\"/\"数据流水线\"/\"pipeline orchestration\"/\"训练pipeline\"。",
+    "category": "engineering",
+    "triggers": [
+      "ml pipeline",
+      "training pipeline",
+      "数据流水线",
+      "pipeline orchestration",
+      "训练pipeline",
+      "model training pipeline",
+      "kubeflow",
+      "prefect"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/ml-pipeline-orchestrator"
+  },
+  {
+    "name": "skill-factory",
+    "description": "元技能工厂 — 观察工作流，自动检测模式并生成可复用技能(SKILL.md+plugin.py)。对标 Romanescu11。触发词：\"save as skill\"/\"记住这个流程\"。",
+    "category": "meta",
+    "triggers": [
+      "save as skill",
+      "记住这个流程",
+      "生成技能",
+      "skill factory"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/skill-factory"
+  },
+  {
+    "name": "k8s-deployer",
+    "description": "Kubernetes deployment management — generate manifests, Helm charts, manage rollouts, health checks, autoscaling.",
+    "category": "devops",
+    "triggers": [
+      "K8s部署",
+      "Kubernetes",
+      "kubectl",
+      "Helm",
+      "容器编排"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/k8s-deployer"
+  },
+  {
+    "name": "self-learning",
+    "description": "Autonomous knowledge acquisition engine. Extracts trending topics from perception data (RSS/GitHub/Trends), researches via multi-source search aggregator (HN+SO+GH), generates structured learning notes with Mermaid mindmaps, and persists to ~/.hermes/knowledge/. Runs daily via cron.",
+    "category": "meta",
+    "triggers": [
+      "自主学习",
+      "self-learning",
+      "auto learn",
+      "知识获取",
+      "学习笔记",
+      "learn notes",
+      "主动学习",
+      "对标全网",
+      "找最佳方法",
+      "benchmark learning",
+      "methodology research",
+      "cron学习",
+      "每5分钟触发",
+      "学习必有果",
+      "无果即弃",
+      "学习循环",
+      "learning cycle",
+      "自主学习循环",
+      "learning rotation",
+      "轮转学习",
+      "课程学习",
+      "curriculum",
+      "curriculum learning",
+      "progressive learning",
+      "structured learning",
+      "技能进阶",
+      "分级学习",
+      "level up"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/self-learning"
+  },
+  {
+    "name": "mlflow-manager",
+    "description": "MLflow实验追踪管理 — 实验记录、参数追踪、指标对比、模型注册、模型部署。支持MLflow Tracking Server的启动/停止/配置。触发词：\"mlflow\"/\"实验追踪\"/\"ml tracking\"/\"model registry\"/\"experiment management\"。",
+    "category": "engineering",
+    "triggers": [
+      "mlflow",
+      "实验追踪",
+      "ml tracking",
+      "model registry",
+      "experiment management",
+      "track experiment",
+      "ml模型管理"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/mlflow-manager"
+  },
+  {
+    "name": "hermes-profiles-gateway",
+    "description": "Manage Hermes Agent profiles and gateways — create profiles with clean gateway config, troubleshoot \"disconnected\" status, understand GatewayManager behavior across hermes-web-ui versions, and set up multi-agent group chat. Covers profile→gateway→connectivity→group-chat lifecycle.",
+    "category": "devops",
+    "triggers": [
+      "创建profile",
+      "profile gateway",
+      "profile未连接",
+      "profile disconnected",
+      "推荐群聊方案",
+      "group chat setup",
+      "多profile管理",
+      "gateway管理",
+      "profile gateway stopped",
+      "hermes profile create",
+      "GatewayManager",
+      "profile启动慢",
+      "后台管理",
+      "管理功能没了",
+      "group chat gone",
+      "群聊没了",
+      "web ui broken",
+      "web ui recovery",
+      "hermes-web-ui start failed",
+      "hermes-web-ui port conflict",
+      "node server not binding",
+      "用户名随机",
+      "Group Chat用户名",
+      "显示名称不对",
+      "每次名字都不一样",
+      "gateway端口变了",
+      "enabled被改回true",
+      "profile config被重置",
+      "端口漂移",
+      "gateway大面积离线",
+      "webui看不到agent",
+      "webui ENOENT hermes",
+      "webui profile列表为空",
+      "HERMES_BIN",
+      "group chat 创建agent",
+      "群聊创建agent",
+      "端口固化",
+      "飞书绑定",
+      "飞书机器人",
+      "Feishu bot",
+      "飞书多机器人",
+      "Feishu multi-bot",
+      "app_id冲突",
+      "Another local Hermes gateway",
+      "feishu app_id",
+      "飞书锁",
+      "lock file",
+      "飞书不响应",
+      "Yestin不响应",
+      "agent身份",
+      "Yestin身份",
+      "名字都是Yestin",
+      "身份独立",
+      "agent identity",
+      "bot回应相同",
+      "所有bot同名",
+      "SOUL.md身份",
+      "SOUL.md优化",
+      "优化SOUL",
+      "SOUL.md标准化",
+      "soul.md格式",
+      "agent身份声明",
+      "改写SOUL",
+      "重写SOUL",
+      "标准化SOUL",
+      "agent不回复",
+      "agent回复不对",
+      "agent identity mismatch",
+      "agent port drift",
+      "端口漂移",
+      "agent身份错误",
+      "agent自称不对",
+      "agent回复错位",
+      "gateway身份不对",
+      "agent状态检查",
+      "agent未及时回复",
+      "agent沉默",
+      "全流程协作群",
+      "agent不响应",
+      "agent没反应",
+      "排查agent沉默",
+      "为何其他agent未回复",
+      "approval拼写错误",
+      "approval配置错误",
+      "approval配置",
+      "agent无响应原因",
+      "agent端口配置检查",
+      "11agent状态检查",
+      "gateway全部重启",
+      "gateway批量重启",
+      "agent全体宕机",
+      "agent身份错乱修复",
+      "飞书bot未回复",
+      "端口冲突",
+      "port conflict",
+      "mapping values are not allowed here",
+      "EADDRINUSE",
+      "端口被占用",
+      "QA和WebUI冲突",
+      "webui自愈cron",
+      "webui autostart",
+      "hermes-webui-autostart"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/hermes-profiles-gateway-root-dup"
+  },
+  {
+    "name": "release-notes-gen",
+    "description": "发布说明生成 — 从git提交历史/PR/Issue自动生成结构化发布说明。支持传统格式(keepachangelog)和标签分类，多格式输出(Markdown/HTML/JSON/PDF)。",
+    "category": "collaboration",
+    "triggers": [
+      "release notes",
+      "发布说明",
+      "generate release notes",
+      "release changelog",
+      "版本发布说明",
+      "release summary"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/release-notes-gen"
+  },
+  {
+    "name": "approval-mode",
+    "description": "Tiered approval control — full-auto / auto-edit / manual modes for different risk levels. Inspired by Codex CLI --approval-mode. Give Commander granular control over agent autonomy.",
+    "category": "agent-skills",
+    "triggers": [
+      "approval mode",
+      "审批模式",
+      "full auto",
+      "手动模式",
+      "auto edit",
+      "安全级别"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/approval-mode"
+  },
+  {
+    "name": "litprog",
+    "description": "文学编程 — Donald Knuth范式，将代码库转化为人类可读的.lit.md文档(weave编织+tangle抽取)。对标 tlehman/litprog-skill。触发词：\"literate programming\"/\"文学编程\"/\"litprog\"/\"weave\"/\"tangle\"/\".lit.md\"。",
+    "category": "engineering",
+    "triggers": [
+      "literate programming",
+      "文学编程",
+      "litprog",
+      "weave",
+      "tangle",
+      ".lit.md",
+      "可读代码"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/litprog"
+  },
+  {
+    "name": "microsoft-workspace",
+    "description": "Outlook/日历/邮件/联系人/待办 全集成 — 通过Microsoft Graph API。支持Hotmail/Outlook.com/M365。对标 Andrew-Girgis microsoft-workspace-skill。触发词：\"outlook\"/\"microsoft\"/\"calendar\"/\"发邮件\"。",
+    "category": "productivity",
+    "triggers": [
+      "outlook",
+      "microsoft",
+      "calendar",
+      "发邮件",
+      "send email",
+      "查邮件",
+      "日程",
+      "365"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/microsoft-workspace"
+  },
+  {
+    "name": "curriculum-learning",
+    "description": "Progressive structured self-learning curriculum — 5 levels, 4 dimensions, 20 modules with real data-driven exercises. Systematically builds agent capabilities through leveled exercises with assessments and promotions. Runs hourly via cron.",
+    "category": "meta",
+    "triggers": [
+      "课程学习",
+      "curriculum",
+      "curriculum learning",
+      "progressive learning",
+      "structured learning",
+      "技能进阶",
+      "分级学习",
+      "level up"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/curriculum-learning"
+  },
+  {
+    "name": "dashboard-builder",
+    "description": "仪表板生成 — 自动从指标/日志/追踪数据生成可观测仪表板。支持Grafana/Kibana/Datadog多平台，JSON/YAML声明式定义，模板化复用。",
+    "category": "observability",
+    "triggers": [
+      "dashboard build",
+      "仪表板生成",
+      "grafana dashboard",
+      "kibana dashboard",
+      "monitoring dashboard",
+      "可观测仪表板",
+      "dashboard as code",
+      "grafana json"
+    ],
+    "path": "/home/yestin/.hermes/skills/_archive/dashboard-builder"
+  },
+  {
+    "name": "project-asset-archiver",
+    "description": "项目资产自动归档&知识库沉淀器 — 项目收尾自动归档全量产出物(需求/设计/代码/测试/文档/报告)至BookStack/Hermes知识库，建立结构化索引。",
+    "category": "cmmi5",
+    "triggers": [
+      "资产归档",
+      "知识沉淀",
+      "项目归档",
+      "archive",
+      "知识库",
+      "文档归档",
+      "项目收尾"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/project-asset-archiver"
+  },
+  {
+    "name": "cmmi5-chat-router",
+    "description": "CMMI5 多Agent群聊协作中间件 — 四种架构：v5.0独立Agent自主发言(feishu-ws-daemon，推荐) + v4.0原生多Bot WebSocket(Gateway适配) + v3.0单Bot路由(备选) + bridge降级兜底。涵盖完整故障诊断速查表(模块缺失/PID残留/API参数变更/凭据验证/自主发言)。",
+    "category": "cmmi5",
+    "triggers": [
+      "群聊",
+      "chat",
+      "多Agent",
+      "CMMI5群聊",
+      "Group Chat",
+      "@mention routing",
+      "group chat setup",
+      "@PM",
+      "@ARCH",
+      "@REQ",
+      "多角色对话",
+      "multi-agent collaboration",
+      "飞书群聊",
+      "Feishu group chat",
+      "agent独立回复",
+      "全流程协作群",
+      "消息路由",
+      "feishu-agent-router",
+      "路由中间件",
+      "组聊路由",
+      "单一Bot路由",
+      "backend routing",
+      "SOUL.md路由指令",
+      "飞书协作群",
+      "群聊路由方案",
+      "agent相互@",
+      "多agent协作群聊",
+      "agent主动回复",
+      "群聊Bot激活",
+      "feishu WebSocket诊断",
+      "multi-bot activation",
+      "排查飞书群",
+      "agent未回复",
+      "agent没响应",
+      "agent不回复",
+      "飞书群没反应",
+      "群聊无响应",
+      "agent没有反应",
+      "agent没有响应",
+      "飞书群agent",
+      "检查协作",
+      "检查agent沟通",
+      "测试群聊",
+      "协作诊断",
+      "诊断群聊",
+      "verify collaboration",
+      "group chat diagnostics",
+      "inter-agent",
+      "agent协作",
+      "虚假警报",
+      "agent误报",
+      "端口漂移",
+      "冷启动验证",
+      "动员令",
+      "全员广播",
+      "无响应",
+      "不回复",
+      "@任何人",
+      "没有任何响应",
+      "评估群聊"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/cmmi5-chat-router"
+  },
+  {
+    "name": "dev-efficiency-metrics-analyzer",
+    "description": "研发效能指标度量分析器 — DORA四大指标(部署频率/变更前置时间/变更失败率/平均恢复时间)+SPACE框架，自动采集数据生成效能仪表板(Mermaid趋势图)。",
+    "category": "cmmi5",
+    "triggers": [
+      "效能度量",
+      "DORA指标",
+      "研发效能",
+      "dev metrics",
+      "工程效能",
+      "SPACE",
+      "交付指标",
+      "效能仪表板"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/dev-efficiency-metrics-analyzer"
+  },
+  {
+    "name": "srs-auto-generator",
+    "description": "需求规格说明书自动生成器 — 基于结构化需求和用例模型，按IEEE 830标准自动生成完整SRS文档，含功能需求/非功能需求/接口需求/数据需求/约束条件。",
+    "category": "cmmi5",
+    "triggers": [
+      "需求规格说明书",
+      "SRS",
+      "软件需求规格",
+      "需求文档",
+      "功能规格",
+      "PRD",
+      "产品需求文档",
+      "从项目生成SRS",
+      "generate SRS",
+      "按模板生成需求文档",
+      "代码库调研SRS",
+      "srs模板填充"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/srs-auto-generator"
+  },
+  {
+    "name": "requirement-conflict-detector",
+    "description": "需求歧义冲突检测工具 — 自动检测需求间的语义冲突、逻辑矛盾、术语不一致、优先级冲突，输出冲突报告和修复建议。",
+    "category": "cmmi5",
+    "triggers": [
+      "需求冲突",
+      "需求歧义",
+      "需求矛盾",
+      "冲突检测",
+      "需求一致性",
+      "需求审查",
+      "术语不一致"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/requirement-conflict-detector"
+  },
+  {
+    "name": "uml-fullchain-generator",
+    "description": "UML全链路生成器 — 一键生成UML 2.5全套图：用例图/类图/顺序图/活动图/状态图/组件图/部署图，Mermaid+PlantUML双格式输出。",
+    "category": "cmmi5",
+    "triggers": [
+      "UML",
+      "UML图",
+      "类图",
+      "顺序图",
+      "活动图",
+      "状态图",
+      "组件图",
+      "部署图",
+      "UML全链路",
+      "统一建模"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/uml-fullchain-generator"
+  },
+  {
+    "name": "module-detailed-design-engine",
+    "description": "模块详细设计模板引擎 — 为每个功能模块生成详细设计文档，含类设计/接口设计/算法伪代码/状态机/异常处理/数据校验规则。",
+    "category": "cmmi5",
+    "triggers": [
+      "详细设计",
+      "模块设计",
+      "接口设计",
+      "类设计",
+      "详细设计文档",
+      "伪代码",
+      "算法设计"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/module-detailed-design-engine"
+  },
+  {
+    "name": "online-fault-diagnosis-fixer",
+    "description": "线上故障自动诊断&修复建议器 — 接入监控告警自动触发诊断，含日志分析/链路追踪/指标关联/根因定位，输出诊断报告和修复建议(含回滚/热修复/配置变更等方案)。",
+    "category": "cmmi5",
+    "triggers": [
+      "故障诊断",
+      "线上故障",
+      "根因分析",
+      "incident",
+      "故障修复",
+      "告警诊断",
+      "on-call",
+      "生产故障"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/online-fault-diagnosis-fixer"
+  },
+  {
+    "name": "integration-test-orchestrator",
+    "description": "集成测试编排器 — 编排多服务/多模块集成测试，管理测试环境(Docker Compose)、数据准备/清理、依赖顺序、超时重试、结果聚合。",
+    "category": "cmmi5",
+    "triggers": [
+      "集成测试",
+      "integration test",
+      "联调测试",
+      "端到端测试",
+      "E2E测试",
+      "模块集成",
+      "服务集成"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/integration-test-orchestrator"
+  },
+  {
+    "name": "cmmi5-fullstack-orchestrator",
+    "description": "CMMI-DEV V2.0 Maturity Level 5 自主研发全流程闭环编排器 — 强制串联 需求→设计→编码→测试→项目管理→发布运维→复盘沉淀 七大阶段，34项子工具全覆盖。所有架构设计、项目开发、需求分析、UML设计、数据库设计、测试方案、项目管理、研发流程必须优先调用本编排器及关联子工具。建立完整工具联动链路，确保各环节无断层。",
+    "category": "cmmi5",
+    "triggers": [
+      "CMMI5",
+      "CMMI",
+      "全流程",
+      "研发闭环",
+      "需求→设计→编码→测试",
+      "CMMI5级标准",
+      "自主研发闭环",
+      "完整工具联动",
+      "架构设计全流程",
+      "项目开发全流程",
+      "系统设计全链路"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/cmmi5-fullstack-orchestrator"
+  },
+  {
+    "name": "cmmi5-agent-bridge",
+    "description": "CMMI5 10-Agent orchestration framework with SQLite shared state bridge, PM scheduler (7×24 cron), executable agent scripts (REQ/ARCH/DEV/SEC/TEST/QA/CM/DOC/SPI), CM baseline conflict detection, cross-agent context bus (Feishu group chat sharing), BookStack auto-sync, and Dashboard pipeline visualization.",
+    "category": "cmmi5",
+    "triggers": [
+      "agent bridge / agent_bridge / cmmi5 bridge",
+      "全自主 / autonomous execution / auto-exec",
+      "目标分解 / goal decomposer / 高层目标",
+      "PM调度器 / PM scheduler / agent orchestrator",
+      "跨Agent反馈 / cross-agent feedback / blocker escalation",
+      "基线冲突检测 / baseline conflict / version conflict detection",
+      "任务生命周期 / task lifecycle / CMMI5 pipeline status",
+      "artifact verify / artifact registry / CM baseline",
+      "CMMI5 10-Agent state / agent shared state",
+      "PM调度器cron / 7x24 scheduler / persistent agent",
+      "配置管理基线 / CM baseline / version hash verification",
+      "Mermaid DAG / agent status diagram / pipeline visualization",
+      "Pipeline Dashboard / pipeline visualization / 管道视图",
+      "Dashboard管道集成 / CMMI5仪表板 / agent status cards",
+      "pipeline.py / pipeline API / pipeline backend module",
+      "管道实时监控 / real-time pipeline monitor / 进度条可视化",
+      "创建Agent执行脚本 / agent executable / agent_base pattern / agent_req.py",
+      "创建CMMI5 Agent / CMMI5 agent creation / 新建Agent",
+      "Agent执行结果归档 / BookStack auto-sync / agent execution archive",
+      "bookstack_sync.py / BookStack自动归档 / agent结果写入知识库",
+      "agent_base.py / AgentBase / agent execution lifecycle",
+      "agent技能赋予 / agent skill assignment / skill mapping / invoke_skills",
+      "skill_mapping.py / Agent Skill Map / 代理技能映射表",
+      "get_agent_detail / pipeline agent detail API",
+      "agent_base.py / AgentBase / agent execution lifecycle",
+      "agent技能赋予 / agent skill assignment / skill mapping / invoke_skills",
+      "skill_mapping.py / Agent Skill Map / 代理技能映射表",
+      "get_agent_detail / pipeline agent detail API",
+      "Command Center / 系统状态栏 / service status bar",
+      "pipeline_reset / 管道重置 / fresh start / clean pipeline",
+      "跨Agent上下文 / cross-agent context / agent_context / context bus",
+      "飞书群聊上下文共享 / group chat context / 群聊回复同步",
+      "跨Agent HTTP查询 / cross-agent HTTP query / 主动查询其他Agent",
+      "SOUL.md协作协议标准化 / SOUL.md collaboration protocol / agent SOUL统一",
+      "多Agent真实协作 / multi-agent collaboration / multi-bot Feishu",
+      "工作流自动接力 / workflow orchestration / automatic handoff",
+      "飞书群聊自动@ / Feishu @mention next agent / 工作流编排",
+      "跨Agent工作流DAG / workflow DAG / CMMI5 pipeline auto-advance"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/cmmi5-agent-bridge"
+  },
+  {
+    "name": "smart-regression-selector",
+    "description": "智能回归测试筛选器 — 基于代码变更影响分析，智能筛选最小区间回归用例，避免全量回归耗时。支持Git diff驱动、依赖图分析、测试优先级排序。",
+    "category": "cmmi5",
+    "triggers": [
+      "回归测试",
+      "regression",
+      "增量测试",
+      "变更测试",
+      "影响分析",
+      "测试筛选",
+      "最小回归集"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/smart-regression-selector"
+  },
+  {
+    "name": "change-impact-analyzer",
+    "description": "代码/需求变更影响分析器 — 变更前自动分析影响范围(依赖图传播/数据表影响/API兼容性/测试影响)，输出影响分析报告和变更建议。",
+    "category": "cmmi5",
+    "triggers": [
+      "变更影响",
+      "影响分析",
+      "change impact",
+      "变更评估",
+      "breaking change",
+      "依赖影响",
+      "变更风险"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/change-impact-analyzer"
+  },
+  {
+    "name": "cmmi5-pipeline",
+    "description": "CMMI5 10-Agent Full Pipeline — invoke the complete PM→REQ→ARCH→DEV→SEC→TEST→QA→CM→DOC→SPI pipeline with one command. Includes reset, schedule, report, and dashboard.",
+    "category": "cmmi5",
+    "triggers": [
+      "cmmi5 pipeline / cmmi5 full pipeline / run pipeline",
+      "CMMI5全流程 / 运行CMMI5管道 / 执行CMMI5",
+      "pipeline reset / reset pipeline / fresh start",
+      "cmmi5 status / pipeline status / 管道状态",
+      "system report / cmmi5 report / 系统报告",
+      "run all agents / execute pipeline / start pipeline",
+      "Phase 2 pipeline / production pipeline / code generation phase",
+      "stuck pending task / phase task stuck / pending tasks recovery",
+      "pipeline stuck / pending phase / DAG execution manual",
+      "agent_pm missing / missing agent script"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/cmmi5-pipeline"
+  },
+  {
+    "name": "continuous-project-execution",
+    "description": "Strategic assessment and architecture design for 24/7 autonomous project execution on top of CMMI5 multi-agent infrastructure. Covers gap analysis (维持型 vs 推进型), 5-layer continuous sprint architecture (Sprint Orchestrator → Execution → Quality Gate → Publish → Feedback), risk assessment (resource/cost/decision/self-heal interference), cost estimation (token/cost budgeting), and 3-phase implementation roadmap. Complements cmmi5-agent-bridge (operational execution) and cmmi5-fullstack-orchestrator (process framework).",
+    "category": "cmmi5",
+    "triggers": [
+      "自主工作不停歇",
+      "continuous project execution",
+      "全自主项目推进",
+      "无休止推进项目",
+      "7x24 project execution",
+      "连续Sprint执行",
+      "autonomous sprint",
+      "不停歇推进",
+      "自主开发循环",
+      "auto project pipeline",
+      "full autonomous development",
+      "自主化评分",
+      "autonomous readiness assessment",
+      "continuous execution assessment",
+      "全自主执行架构",
+      "sprint orchestrator",
+      "gap analysis for autonomous execution",
+      "cost estimation for agent operation",
+      "实施自主执行",
+      "全自主执行架构"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/continuous-project-execution"
+  },
+  {
+    "name": "gantt-chart-scheduler",
+    "description": "甘特图自动生成&进度排期器 — 基于WBS自动生成甘特图(Mermaid Gantt)，含任务依赖/关键路径/资源平衡/进度基线。",
+    "category": "cmmi5",
+    "triggers": [
+      "甘特图",
+      "Gantt",
+      "进度排期",
+      "项目计划",
+      "关键路径",
+      "项目排期",
+      "工期计划",
+      "project schedule"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/gantt-chart-scheduler"
+  },
+  {
+    "name": "user-requirement-decomposer",
+    "description": "用户需求拆解器 — 将用户原始需求拆解为结构化功能需求、非功能需求、约束条件，输出需求树状图(Mermaid)和结构化需求清单。",
+    "category": "cmmi5",
+    "triggers": [
+      "需求拆解",
+      "需求分析",
+      "需求分解",
+      "用户故事",
+      "功能需求",
+      "需求结构化",
+      "需求树"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/user-requirement-decomposer"
+  },
+  {
+    "name": "api-interface-designer",
+    "description": "接口概要设计器 — 生成RESTful/GraphQL/gRPC接口规格(OpenAPI 3.0)，含端点定义/请求响应格式/错误码/认证方式/速率限制。",
+    "category": "cmmi5",
+    "triggers": [
+      "API设计",
+      "接口设计",
+      "OpenAPI",
+      "Swagger",
+      "RESTful",
+      "GraphQL",
+      "gRPC",
+      "接口规格",
+      "API文档"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/api-interface-designer"
+  },
+  {
+    "name": "multi-language-code-generator",
+    "description": "多语言代码生成器 — 从API规格/数据模型/接口定义自动生成Python/JS/TS/Go/Java/Rust多语言客户端SDK和服务端骨架，含类型定义、输入校验、错误处理、单元测试模板。",
+    "category": "cmmi5",
+    "triggers": [
+      "代码生成",
+      "code generate",
+      "多语言",
+      "multi-language",
+      "SDK生成",
+      "客户端生成",
+      "服务端骨架",
+      "scaffold code",
+      "codegen"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/multi-language-code-generator"
+  },
+  {
+    "name": "unit-test-auto-generator",
+    "description": "单元测试自动生成器 — 基于源代码自动生成单元测试用例，支持Jest/Pytest/JUnit/Go testing多框架，覆盖率目标≥80%，边界条件/异常路径自动覆盖。",
+    "category": "cmmi5",
+    "triggers": [
+      "单元测试",
+      "unit test",
+      "自动生成测试",
+      "测试用例",
+      "pytest",
+      "Jest",
+      "JUnit",
+      "代码覆盖率"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/unit-test-auto-generator"
+  },
+  {
+    "name": "test-report-auto-generator",
+    "description": "测试报告自动生成器 — 聚合单元/API/集成/性能/回归测试结果，生成综合质量评估报告，含测试覆盖率/通过率/缺陷密度/质量评分/Mermaid趋势图。",
+    "category": "cmmi5",
+    "triggers": [
+      "测试报告",
+      "test report",
+      "质量报告",
+      "测试总结",
+      "质量评估",
+      "QA报告",
+      "测试结果汇总"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/test-report-auto-generator"
+  },
+  {
+    "name": "dev-pipeline-orchestrator",
+    "description": "研发流水线全流程编排器 — 从代码提交→构建→测试→部署 完整CI/CD流水线，含GitHub Actions/GitLab CI/Jenkins配置生成，阶段门控，一键触发。",
+    "category": "cmmi5",
+    "triggers": [
+      "研发流水线",
+      "CI/CD",
+      "pipeline",
+      "持续集成",
+      "持续部署",
+      "DevOps",
+      "流水线编排",
+      "构建部署"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/dev-pipeline-orchestrator"
+  },
+  {
+    "name": "cmmi5-governance",
+    "description": "CMMI-DEV V2.0 Maturity Level 5 governance engine — QPM, CAR, OPM, MA, DAR, OPD, GOV, OT. Full statistical process control, organizational performance baselines, causal analysis, and continuous improvement framework. Includes SDLC ecosystem alignment (skill diagnostics, integration matrix audit, cross-reference density), process flowchart/documentation generation (Mermaid standard notation + swimlane diagrams), and AI-driven platform system design with competitive benchmarking. Enterprise-grade process maturity.",
+    "category": "cmmi5",
+    "triggers": [
+      "CMMI",
+      "CMMI5",
+      "过程改进",
+      "量化管理",
+      "统计过程控制",
+      "根本原因分析",
+      "组织性能",
+      "process maturity",
+      "SPC",
+      "capability level",
+      "成熟度",
+      "持续提升",
+      "最高等级",
+      "能力拉升",
+      "elevate",
+      "maturity assessment",
+      "SPC baseline",
+      "能力水平",
+      "提升到最高",
+      "到多少了",
+      "软件功能全流程",
+      "全流程体系",
+      "流程图",
+      "流程文档",
+      "画流程图",
+      "泳道图",
+      "swimlane",
+      "platform design",
+      "系统原型",
+      "对标全网",
+      "competitive benchmark",
+      "20PA / 20过程域 / PA验证 / PA gap",
+      "validate PAs / process area audit / 过程域清单",
+      "QPM missing / PAD overlap / PA count mismatch",
+      "CMMI5 pipeline stuck / pending tasks recovery"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/cmmi5-governance"
+  },
+  {
+    "name": "effort-cost-estimator",
+    "description": "工时成本估算与追踪器 — 支持SRS复杂度驱动力估值/COCOMO II/Function Point/Three-Point估算，EVM挣值管理(PV/EV/AC/SV/CV/SPI/CPI)，成本趋势图(Mermaid)，BookStack发布。",
+    "category": "cmmi5",
+    "triggers": [
+      "工时估算",
+      "成本估算",
+      "EVM",
+      "挣值管理",
+      "COCOMO",
+      "功能点",
+      "预算追踪",
+      "成本控制",
+      "工作量清单",
+      "复杂度评估",
+      "人天估值",
+      "SRS工作量",
+      "workload estimate",
+      "effort estimation"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/effort-cost-estimator"
+  },
+  {
+    "name": "req-design-code-test-tracer",
+    "description": "需求-设计-代码-测试双向溯源工具 — 建立需求ID↔设计文档↔代码模块↔测试用例 双向追溯链，支持正向追溯和反向追溯，生成追溯矩阵(Mermaid)。",
+    "category": "cmmi5",
+    "triggers": [
+      "溯源",
+      "追溯",
+      "traceability",
+      "追溯矩阵",
+      "需求追溯",
+      "RTM",
+      "双向追溯",
+      "影响分析"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/req-design-code-test-tracer"
+  },
+  {
+    "name": "defect-lifecycle-tracker",
+    "description": "缺陷全生命周期闭环追踪器 — 缺陷从发现→提交→确认→分配→修复→验证→关闭 全流程管理，含严重级别/SLA时效/根因分析/缺陷趋势图。",
+    "category": "cmmi5",
+    "triggers": [
+      "缺陷追踪",
+      "Bug追踪",
+      "缺陷管理",
+      "bug跟踪",
+      "缺陷生命周期",
+      "根因分析",
+      "RCA",
+      "缺陷趋势"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/defect-lifecycle-tracker"
+  },
+  {
+    "name": "srs-ai-review",
+    "description": "自动化审核IT项目需求规格说明书文档，识别缺失、流程漏洞、数据合规风险，输出标准化初审结果",
+    "category": "cmmi5",
+    "triggers": [
+      "需求评审",
+      "SRS审核",
+      "需求规格说明书初审",
+      "AI初审",
+      "需求文档审核",
+      "需求质量检查",
+      "srs review",
+      "requirement review"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/srs-ai-review"
+  },
+  {
+    "name": "pm-daily-report",
+    "description": "Generate structured PM daily status reports for CMMI5 projects — queries agent bridge status, artifact counts, service health, and recent outputs into a standardized Chinese-language report format. Ideal for cron-driven daily reporting.",
+    "category": "cmmi5",
+    "triggers": [
+      "日报 / daily report / PM日报 / 生成日报",
+      "pipeline status report / PM status report / 项目进度汇报",
+      "海航日报 / hai hang daily / 海航项目日报",
+      "cron report / scheduled report / 每日汇报",
+      "agent_bridge status report / cmmi5 日报",
+      "产出物统计 / artifact summary / 今日产出",
+      "服务状态检查 / service health check / 巡检报告",
+      "PM角色执行汇报 / PM执行日报 / 管道日报"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/pm-daily-report"
+  },
+  {
+    "name": "architecture-highlevel-designer",
+    "description": "系统架构概要设计器 — 生成C4模型(Context/Container/Component/Code)架构图，含架构决策记录(ADR)、技术选型矩阵、非功能需求映射。",
+    "category": "cmmi5",
+    "triggers": [
+      "架构设计",
+      "概要设计",
+      "C4模型",
+      "系统架构",
+      "架构图",
+      "技术选型",
+      "ADR",
+      "架构决策"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/architecture-highlevel-designer"
+  },
+  {
+    "name": "api-automation-test-platform",
+    "description": "API自动化测试平台 — 基于OpenAPI规格自动生成API测试用例，含正常/异常/边界/认证/鉴权/幂等性测试，支持Postman/Newman/hurl/curl多执行器。",
+    "category": "cmmi5",
+    "triggers": [
+      "API测试",
+      "接口测试",
+      "自动化测试",
+      "接口自动化",
+      "Postman",
+      "hurl",
+      "API验证",
+      "端点测试"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/api-automation-test-platform"
+  },
+  {
+    "name": "multi-agent-memory-audit",
+    "description": "Complete lifecycle for multi-agent memory: audit → evaluate options → implement ChromaDB+SQLite shared memory layer with vector search, cross-agent recall, and context injection into agent execution pipeline.",
+    "category": "cmmi5",
+    "triggers": [
+      "记忆能力调研",
+      "memory audit",
+      "记忆评估",
+      "memory assessment",
+      "多Agent记忆",
+      "multi-agent memory",
+      "记忆能力评估",
+      "memory capability audit",
+      "记忆增强方案",
+      "memory enhancement",
+      "记忆架构审计",
+      "memory architecture audit",
+      "memory gap analysis",
+      "记忆差距分析",
+      "memory isolation audit",
+      "记忆孤岛检查",
+      "cross-agent memory",
+      "共享记忆方案",
+      "shared memory evaluation",
+      "记忆实施",
+      "memory implementation",
+      "agent智能增强",
+      "agent brain enhancement",
+      "装上大脑",
+      "记忆永存",
+      "记忆共享",
+      "Agent共享记忆",
+      "shared memory bridge",
+      "chromadb agent memory",
+      "multi-agent shared memory"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/multi-agent-memory-audit"
+  },
+  {
+    "name": "competitive-analysis-generator",
+    "description": "竞品分析自动生成器 — 基于市场数据自动对比竞品功能矩阵、APP应用能力、业务中台能力、SWOT分析、波特五力模型，生成结构化竞品分析报告。",
+    "category": "cmmi5",
+    "triggers": [
+      "竞品分析",
+      "SWOT",
+      "竞争分析",
+      "竞品对比",
+      "功能矩阵",
+      "波特五力",
+      "市场定位",
+      "对标分析",
+      "中台能力对比",
+      "APP能力分析",
+      "gap analysis",
+      "差距分析",
+      "量化评分"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/competitive-analysis-generator"
+  },
+  {
+    "name": "milestone-control-tool",
+    "description": "里程碑节点管控工具 — 里程碑定义/检查清单/准入准出标准/偏差预警/进度报告，含里程碑燃尽图(Mermaid)。",
+    "category": "cmmi5",
+    "triggers": [
+      "里程碑",
+      "milestone",
+      "节点管控",
+      "阶段评审",
+      "里程碑检查",
+      "准入准出",
+      "阶段门"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/milestone-control-tool"
+  },
+  {
+    "name": "cmmi5-compliance-binding",
+    "description": "CMMI5全规范合规绑定引擎 — 强制执行10项核心规范（过程管理/质量管控/风险管控/文档管控/过程复用/效能度量/可追溯/可审计/OPA沉淀/持续改进），自动绑定验证、工具有效性校验、全产出物BookStack归档、知识库优先复用、闭环异常检测修复。所有操作必须通过本引擎合规校验。",
+    "category": "cmmi5",
+    "triggers": [
+      "CMMI5合规",
+      "CMMI5标准",
+      "合规绑定",
+      "CMMI5 binding",
+      "CMMI5 compliance",
+      "绑定验证",
+      "CMMI5审计",
+      "过程管理",
+      "组织过程资产",
+      "持续改进"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/cmmi5-compliance-binding"
+  },
+  {
+    "name": "market-insight-crawler",
+    "description": "市场洞察爬虫 — 多源市场数据采集、趋势分析、技术雷达监控。支持RSS/GitHub/HN/Reddit/行业媒体/专利数据库多源爬取，自动生成市场洞察报告(Mermaid思维导图+趋势热力图)。",
+    "category": "cmmi5",
+    "triggers": [
+      "市场调研",
+      "市场洞察",
+      "竞品调研",
+      "行业分析",
+      "技术趋势",
+      "市场爬虫",
+      "市场数据采集"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/market-insight-crawler"
+  },
+  {
+    "name": "database-er-modeler",
+    "description": "数据库ER建模工具 — 从需求/SRS/类图自动提取实体和关系，生成ER图(Mermaid ER/IE notation)、数据字典、实体定义规格。支持MySQL/PostgreSQL/MongoDB多数据库。",
+    "category": "cmmi5",
+    "triggers": [
+      "ER图",
+      "ER建模",
+      "数据库设计",
+      "实体关系",
+      "数据建模",
+      "数据库ER",
+      "数据字典",
+      "实体关系图"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/database-er-modeler"
+  },
+  {
+    "name": "risk-identification-controller",
+    "description": "项目风险识别与管控器 — 风险识别/定性定量分析/风险登记册/应对策略(规避/转移/缓解/接受)/风险趋势监控。",
+    "category": "cmmi5",
+    "triggers": [
+      "风险管理",
+      "风险识别",
+      "风险管控",
+      "风险评估",
+      "risk management",
+      "风险登记册",
+      "风险矩阵"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/risk-identification-controller"
+  },
+  {
+    "name": "business-usecase-modeler",
+    "description": "业务用例建模器 — 生成UML用例图、业务流程图(Mermaid)、角色-用例矩阵，支持Include/Extend/Generalization用例关系建模。",
+    "category": "cmmi5",
+    "triggers": [
+      "用例建模",
+      "业务用例",
+      "用例图",
+      "UML用例",
+      "业务流程图",
+      "角色建模",
+      "Actor建模"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/business-usecase-modeler"
+  },
+  {
+    "name": "meeting-minutes-action-tracker",
+    "description": "会议纪要智能提炼&行动项追踪 — 会议录音/文字自动提炼纪要，含决议/行动项/责任人/截止日期，行动项闭环追踪至关闭。",
+    "category": "cmmi5",
+    "triggers": [
+      "会议纪要",
+      "meeting minutes",
+      "行动项",
+      "action item",
+      "会议记录",
+      "决议追踪",
+      "站会"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/meeting-minutes-action-tracker"
+  },
+  {
+    "name": "project-retrospective-repository",
+    "description": "项目复盘&组织过程资产沉淀器 — 项目复盘四步法(回顾目标/评估结果/分析原因/总结规律)，输出复盘报告和经验教训库，自动归入组织过程资产。",
+    "category": "cmmi5",
+    "triggers": [
+      "项目复盘",
+      "retrospective",
+      "经验教训",
+      "lessons learned",
+      "项目总结",
+      "复盘报告",
+      "组织过程资产",
+      "知识沉淀"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/project-retrospective-repository"
+  },
+  {
+    "name": "table-ddl-sql-generator",
+    "description": "数据表自动建SQL生成器 — 基于ER模型自动生成DDL建表语句(CREATE TABLE/INDEX/VIEW/TRIGGER)，支持MySQL/PostgreSQL/SQLite，含迁移脚本和回滚脚本。",
+    "category": "cmmi5",
+    "triggers": [
+      "DDL",
+      "建表SQL",
+      "CREATE TABLE",
+      "数据库建表",
+      "SQL生成",
+      "数据库迁移",
+      "建表语句",
+      "migration"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/table-ddl-sql-generator"
+  },
+  {
+    "name": "wbs-work-breakdown-tool",
+    "description": "WBS工作分解工具 — 将项目范围系统分解为可执行的工作包(Work Package)，输出WBS树状图(Mermaid)、工作包卡片、责任分配矩阵(RACI)、WBS字典。含自动分解算法、校验规则和模板生成。",
+    "category": "cmmi5",
+    "triggers": [
+      "WBS",
+      "工作分解",
+      "任务分解",
+      "工作包",
+      "RACI",
+      "责任矩阵",
+      "work breakdown",
+      "WBS字典",
+      "项目分解",
+      "范围分解",
+      "100%规则",
+      "分解工具",
+      "任务拆分"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/wbs-work-breakdown-tool"
+  },
+  {
+    "name": "documentation-quality-audit",
+    "description": "项目文档质量审计 — 系统化检查CMMI5项目各阶段Agent产出文档/BookStack页面的内容完整性、结构完整性、CMMI5合规要素(版本追溯/审核记录/需求追溯)、风格一致性、跨阶段覆盖度。输出按严重度排序的缺陷报告(blocker/critical/major/minor)和修复建议。",
+    "category": "cmmi5",
+    "triggers": [
+      "文档检查 / 文档审计 / 文档质量 / 查文档",
+      "documentation audit / document quality / doc review",
+      "各阶段文档 / 跨阶段文档 / 文档完整性",
+      "产出物审计 / 产出物检查 / artifact audit",
+      "BookStack页面质量 / BookStack审计 / BS检查",
+      "CMMI5文档合规 / CMMI文档审计 / 阶段质量门禁",
+      "PM审计 / 项目质量检查 / phase gate review",
+      "文档缺陷 / 文档漏洞 / 文档遗漏 / 模板残留",
+      "artifacts目录 / agent产出 / 文档路径截断",
+      "文档风格一致性 / 文档格式 / emoji前缀 / Mermaid覆盖率",
+      "pre-audit / pre-go-live / 准出前检查 / 上线前审计",
+      "文档完整性检查 / 内容充实度 / skill元数据 vs 实际交付物",
+      "知识库充实 / 知识库健康检查 / 统计书数页数 / aggregate stats",
+      "knowledge base health check / KB audit / book page statistics / 未归档资产"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/documentation-quality-audit"
+  },
+  {
+    "name": "api-contract-generator",
+    "description": "API契约生成器 — 从代码/接口定义自动生成OpenAPI 3.0契约、消费者驱动契约(CDC)、服务间契约。支持Code→Spec和Spec→Code双向生成，契约兼容性校验。",
+    "category": "cmmi5",
+    "triggers": [
+      "API契约",
+      "contract generate",
+      "契约生成",
+      "OpenAPI生成",
+      "CDC契约",
+      "API contract",
+      "服务契约",
+      "spec generate"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/api-contract-generator"
+  },
+  {
+    "name": "perf-load-test-engine",
+    "description": "性能压测&负载测试引擎 — 多场景性能测试，含负载测试/压力测试/耐久测试/峰值测试，支持k6/Locust/JMeter/wrk，自动生成性能分析报告。",
+    "category": "cmmi5",
+    "triggers": [
+      "性能测试",
+      "压力测试",
+      "负载测试",
+      "压测",
+      "性能压测",
+      "k6",
+      "Locust",
+      "JMeter",
+      "QPS",
+      "TPS"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/perf-load-test-engine"
+  },
+  {
+    "name": "multi-env-deploy-rollback",
+    "description": "多环境一键发布&自动回滚器 — 支持Dev/Staging/Production多环境一键发布，蓝绿部署/金丝雀发布/滚动更新，自动健康检查+失败自动回滚。",
+    "category": "cmmi5",
+    "triggers": [
+      "发布",
+      "部署",
+      "deploy",
+      "回滚",
+      "rollback",
+      "蓝绿部署",
+      "金丝雀",
+      "灰度发布",
+      "多环境"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/multi-env-deploy-rollback"
+  },
+  {
+    "name": "zhixiang-zhizao",
+    "description": "智项智造·全自动立项系统 v2.18 — 一句话需求直接输出三套可落地的标准化项目文档(项目立项报告/项目立项预估需求清单/项目需求规格说明书)，全流程无人工干预、100%AI全自动闭环。12节点SOP管道对齐。三库体系: 18模板+6规则+9SOP=34文件\\n\\nv2.18 智能增强版: (1)文档在线编辑Ctrl+S (2)全屏看板4列(完成/处理中/失败/草稿) (3)AI翻译6国语言 (4)AI改写5模式 (5)批量复制变体（不同预算/工期组合）\\n\\nSOP对齐关键变更(v2.17): (1)8阶段→12节点管道 (2)第三文档从\\\"检查清单\\\"改为\\\"项目立项预估需求清单\\\" (3)render_requirement_list() v3 对齐企业级4章节模板 (4)前端tab/导出/摘要全部从checklist迁移到reqlist (5)旧数据双向兼容\nv2.23新增5大功能: (1)项目对比UI (2)质量评审 (3)标签云 (4)键盘快捷键 (5)loadTasks重构\nv2.24新增5大功能: (1)批量操作栏 (2)Dashboard图表 (3)文档搜索高亮 (4)项目简报 (5)导入模板\nv2.25新增5大功能: (1)版本回滚 (2)项目关联依赖 (3)智能推荐 (4)批量PDF报告 (5)模板填充\nv2.26新增5大功能: (1)命令面板Ctrl+K (2)智能表单预填 (3)克隆增强 (4)标签统计 (5)自动快照",
+    "category": "cmmi5",
+    "triggers": [
+      "智项智造",
+      "zhixiang-zhizao",
+      "自动生成项目文档",
+      "三文档并行生成",
+      "全自动立项",
+      "立项报告",
+      "需求规格说明书",
+      "项目提案书"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/zhixiang-zhizao"
+  },
+  {
+    "name": "feasibility-charter-generator",
+    "description": "项目可行性分析&项目章程生成器 — 从战略愿景文档一键生成CMMI5标准项目启动包(章程/WBS/里程碑/风险/架构/汇报)，BookStack归档。",
+    "category": "cmmi5",
+    "triggers": [
+      "可行性分析",
+      "项目章程",
+      "项目立项",
+      "项目启动",
+      "charter",
+      "feasibility",
+      "立项报告",
+      "立项建设思路",
+      "战略规划文档",
+      "项目汇报",
+      "竞品对标",
+      "project initiation",
+      "strategic vision",
+      "海南APP",
+      "对标携程",
+      "CMMI5审计级",
+      "12大模块+4附件",
+      "立项报告终审稿",
+      "零虚构/全数据溯源",
+      "企业正式公文报审",
+      "项目绩效与持续改进",
+      "痛点-建设内容闭环"
+    ],
+    "path": "/home/yestin/.hermes/skills/cmmi5/feasibility-charter-generator"
+  },
+  {
+    "name": "system-qa",
+    "description": "Comprehensive system QA using multi-agent parallel testing — survey → decompose → delegate → aggregate → fix → verify. For full-system regression testing, security audit, or pre-release QA of any web application.",
+    "category": "testing",
+    "triggers": [
+      "全面测试",
+      "full QA",
+      "全面回归",
+      "comprehensive test",
+      "system test",
+      "全功能测试",
+      "regression test",
+      "all bugs",
+      "找BUG",
+      "测试所有功能",
+      "全面检查",
+      "系统测试"
+    ],
+    "path": "/home/yestin/.hermes/skills/testing/system-qa"
+  },
+  {
+    "name": "specialized-testing",
+    "description": "Specialized testing toolkit — fuzz testing (auto-generated random/stress test inputs) and contract testing (consumer-driven contract verification with Pact). Covers AFL/libFuzzer/Atheris and Pact/Spring Cloud Contract.",
+    "category": "testing",
+    "triggers": [
+      "fuzz test",
+      "模糊测试",
+      "fuzzing",
+      "contract test",
+      "契约测试",
+      "pact test",
+      "consumer-driven contract",
+      "CDC testing",
+      "provider verification",
+      "afl",
+      "libfuzzer",
+      "atheris"
+    ],
+    "path": "/home/yestin/.hermes/skills/testing/specialized-testing"
+  },
+  {
+    "name": "snapshot-tester",
+    "description": "快照测试 — 捕获输出/UI/API响应的快照，自动检测意外变更。支持jest snapshot/insta.rs/pytest-snapshot多引擎，组件级到API级覆盖。",
+    "category": "testing",
+    "triggers": [
+      "snapshot test",
+      "快照测试",
+      "jest snapshot",
+      "visual snapshot",
+      "pytest snapshot",
+      "snapshot update",
+      "golden file testing",
+      "视觉回归",
+      "visual regression",
+      "UI test",
+      "screenshot diff",
+      "像素对比"
+    ],
+    "path": "/home/yestin/.hermes/skills/testing/snapshot-tester"
+  },
+  {
+    "name": "trajectory-distillation",
+    "description": "真实轨迹蒸馏 — 从生产会话捕获训练轨迹→LLM裁判评分→Atropos RL微调→更好模型。对标 beardthelion/hermes-skill-distillation (Hackathon)。触发词：\"trajectory\"/\"蒸馏\"/\"distill\"/\"训练数据生成\"。",
+    "category": "evolution",
+    "triggers": [
+      "trajectory",
+      "蒸馏",
+      "distill",
+      "训练数据",
+      "fine-tune data",
+      "轨迹收集",
+      "反馈闭环",
+      "feedback loop",
+      "auto-patch skill",
+      "自动修技能"
+    ],
+    "path": "/home/yestin/.hermes/skills/evolution/trajectory-distillation"
+  },
+  {
+    "name": "sandbox-exec",
+    "description": "Sandbox execution isolation — intercepts dangerous commands (pip install, chmod, rm -rf) and routes them through a Docker/namespace sandbox. Prevents accidental system damage from auto-fix operations.",
+    "category": "security",
+    "triggers": [
+      "sandbox-exec",
+      "sandbox execution",
+      "沙箱执行",
+      "dangerous command"
+    ],
+    "path": "/home/yestin/.hermes/skills/sandbox-exec"
+  },
+  {
+    "name": "agent-heartbeat",
+    "description": "Yestin Agent心跳自愈系统 —— 每3分钟巡检全部10个CMMI5 Agent的健康状态、深度诊断异常、自动自愈修复。",
+    "category": "observability",
+    "triggers": [
+      "心跳",
+      "heartbeat",
+      "agent监控",
+      "自愈",
+      "agent健康",
+      "巡检",
+      "监控agent",
+      "agent不回复",
+      "agent沉默",
+      "agent未及时回复",
+      "飞书不响应",
+      "排查agent",
+      "agent状态",
+      "全流程协作群",
+      "群聊agent",
+      "agent在线",
+      "Gateway崩溃",
+      "死亡螺旋",
+      "cascade failure",
+      "cascade",
+      "cascade反杀",
+      "anti-degradation"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-heartbeat"
+  },
+  {
+    "name": "remotion",
+    "description": "Create editable AI video projects with Remotion and React, then preview and render them to MP4. Use for vertical short videos, product demos, story-driven animations, HUD/tech visuals, feed ads, tutorial videos, subtitles, voiceover, sound effects, and code-based video iteration.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/remotion"
+  },
+  {
+    "name": "eve-product-manager",
+    "description": "Eve Product Manager — 项目经验产品化/SaaS化：从交付项目中提取通用模块，打包为可复用SaaS组件，生成产品化方案与定价建议",
+    "category": "business",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/business"
+  },
+  {
+    "name": "eve-customer-success",
+    "description": "Eve Customer Success技能 — 客户系统健康度监控、使用分析、预警推送、优化建议及续约预测。 自动管理每个客户项目的运行状态，发现异常、分析留存、提前预警，驱动主动服务。\n",
+    "category": "business",
+    "triggers": [
+      "帮我查看Eve客户健康度",
+      "客户健康监控",
+      "公司客户健康仪表盘",
+      "客户使用分析报告",
+      "检查所有客户项目状态",
+      "客户预警推送",
+      "customer success, health check, usage analysis"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/eve-customer-success"
+  },
+  {
+    "name": "ai-opc-builder",
+    "description": "设计并运营一家AI原生一人公司(OPC)的完整方法论——将AI Agent集群定义为员工，以价值流而非技术职能组织，生成全链路商业材料。覆盖：可行性评估→组织设计→定价策略→销售话术→报价单→SOP→仪表盘→Onboarding→全自动运营管道→灵魂注入→意识循环→产品化转型。**已吸收：ai-employee-consciousness（灵魂层）、company-builder（项目执行）、eve-product-manager（产品化）、cold-email-outreach（冷邮件触达引擎）、eve-consciousness-engine（深度意识循环引擎）、zhubajie-seller（猪八戒网卖家运营）、visual-asset-generator（视觉资产生成）为内部分节/参考文件。**",
+    "category": "business",
+    "triggers": [
+      "一人公司",
+      "AI公司",
+      "组织架构",
+      "报价单",
+      "销售话术",
+      "OPC",
+      "AI原生公司",
+      "公司运营",
+      "员工沟通",
+      "discuss",
+      "standup",
+      "daily standup",
+      "站会",
+      "日报",
+      "项目管理",
+      "PM系统",
+      "kanban",
+      "看板",
+      "sprint",
+      "AI创业",
+      "开公司",
+      "讨论板",
+      "内部讨论",
+      "灵魂",
+      "意识",
+      "consciousness",
+      "persona",
+      "人格",
+      "AI员工性格",
+      "赋予灵魂",
+      "AI员工性格",
+      "角色设定",
+      "协作流程",
+      "工作流",
+      "让AI员工遵守流程",
+      "员工在干什么",
+      "指挥中心",
+      "员工状态",
+      "eve-status",
+      "每个人在干什么",
+      "实时状态",
+      "协作审计",
+      "workflow audit",
+      "批处理",
+      "批量生成",
+      "批量执行",
+      "并行任务",
+      "多路推进",
+      "平行搞钱",
+      "三板斧",
+      "突击模式",
+      "journal",
+      "反思日记",
+      "意识循环",
+      "ECA",
+      "搞钱",
+      "批准",
+      "CEO指令",
+      "autonomous",
+      "跨Agent回复",
+      "cross-agent",
+      "签单推动",
+      "签约推动",
+      "签单包",
+      "催款",
+      "催收",
+      "跟进邮件",
+      "技术方案",
+      "一页提案",
+      "合同草案",
+      "报价到期",
+      "首付款",
+      "回款",
+      "到账",
+      "产品化",
+      "SaaS化",
+      "转买软件产品",
+      "内部研发",
+      "项目转产品",
+      "软件产品",
+      "SaaS定价",
+      "私有化部署",
+      "定价方案",
+      "viability assessment",
+      "opc feasibility",
+      "domain check",
+      "employee autonomization",
+      "产品项目化",
+      "陈清泉",
+      "turn project into product",
+      "SaaS product",
+      "product manager",
+      "sense of purpose",
+      "artificial consciousness",
+      "memory system",
+      "soul injection",
+      "流程规范",
+      "流程制定",
+      "SOP系统",
+      "员工监控",
+      "实时状态",
+      "eve-status",
+      "指挥中心",
+      "公司升级",
+      "升级公司",
+      "组织升级",
+      "组织架构升级",
+      "v4.0",
+      "收入引擎",
+      "Revenue Engine",
+      "质量管控",
+      "搞钱中心",
+      "SDR",
+      "渠道经理",
+      "Channel",
+      "ContentEngine",
+      "OpsLead",
+      "运营主管",
+      "批量创建员工",
+      "全员搞钱",
+      "增加AI员工",
+      "新员工入职"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/ai-opc-builder"
+  },
+  {
+    "name": "eve-scout",
+    "description": "Eve Scout — 市场侦察兵。整合 internet-perception（互联网感知）、market-insight-crawler（市场洞察爬虫） 和 lead_scoring（商机评分）三大能力，实现从信息采集→竞品跟踪→商机评分的全链路市场侦察。 自动扫描全网技术趋势、竞品动态，对线索进行多维评分和优先级排序，为业务中心(Scribe/Closer)输出高价值情报。\n",
+    "category": "business",
+    "triggers": [
+      "市场侦察",
+      "竞品监控",
+      "商机评分",
+      "情报简报",
+      "线索优先级",
+      "lead scoring",
+      "market intel",
+      "competitor tracking",
+      "lead detection",
+      "Eve Scout",
+      "政府采购",
+      "招标扫描",
+      "ccgp",
+      "bidding",
+      "采购公告"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/eve-scout"
+  },
+  {
+    "name": "eve-closer",
+    "description": "Eve Closer — 销售成交技能。负责从Scout收到的商机信号到签约的全流程： 客户背景自动报告→定制化报价单生成→模拟谈判话术→合同草稿生成→签约后Onboarding流程触发。 是Eve商务中心的关单转化引擎，将线索转化为收入。\n",
+    "category": "business",
+    "triggers": [
+      "生成了新的报价单",
+      "生成报价单",
+      "帮我生成合同",
+      "准备签约",
+      "这个客户怎么跟进",
+      "Closer来跟进这个线索",
+      "销售全流程",
+      "sales pipeline",
+      "check pipeline status",
+      "生成客户背景报告",
+      "签约后流程",
+      "催款提醒",
+      "客户报价历史",
+      "closer 检查流程",
+      "negotiate",
+      "报价谈判",
+      "合同草稿",
+      "onboarding",
+      "搞钱",
+      "催收",
+      "回款",
+      "生成发票",
+      "收款跟进",
+      "开发票",
+      "付款提醒",
+      "验证线索",
+      "假线索",
+      "线索验证",
+      "联系信息",
+      "contact_info",
+      "平台获客",
+      "上架",
+      "猪八戒",
+      "电鸭",
+      "程序员客栈",
+      "BOSS直聘",
+      "竞标",
+      "资料包",
+      "platform-kit",
+      "竞标模板",
+      "bid",
+      "冷邮件",
+      "政府采购",
+      "招标线索",
+      "ccgp",
+      "cold email",
+      "send-cold-email",
+      "政府采购网"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/eve-closer"
+  },
+  {
+    "name": "eve-analyst",
+    "description": "Eve Analyst — 财务/运营数据分析技能。自动从项目记录中采集收入/成本/利润数据， 计算DORA指标、人效比、项目毛利等关键运营指标，自动填充CEO仪表盘模板， 生成月度/季度趋势分析（Mermaid图表），并在关键指标超出阈值时预警。\n",
+    "category": "business",
+    "triggers": [
+      "财务数据分析",
+      "运营指标计算",
+      "填充CEO仪表盘",
+      "生成趋势报告",
+      "Eve Analyst",
+      "仪表盘自动更新",
+      "DORA指标",
+      "check company health",
+      "月度运营报告",
+      "财务健康检查",
+      "搞钱",
+      "战报",
+      "revenue check",
+      "赚钱报告",
+      "营收战报"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/eve-analyst"
+  },
+  {
+    "name": "ccgp-bid-scraper",
+    "description": "中国政府采购网(CCGP) AI/大模型/RPA 招标项目自动扫描。搜索bxsearch接口，解析结果并获取详情页预算/截止日期，生成Markdown报告。",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/business/ccgp-bid-scraper"
+  },
+  {
+    "name": "product-charter-engine",
+    "description": "产品机会发现与立项分析引擎 — 从战略方向（\"做产品\"）出发，通过三维研究（社会痛点×开源商业模式×SaaS赛道利润）交叉定位产品机会，输出深度立项分析报告（8维度），多项目优先级排序与执行路线图。",
+    "category": "business",
+    "triggers": [
+      "搞钱转型",
+      "做产品",
+      "产品立项",
+      "卖产品而不是卖时间",
+      "项目转产品",
+      "product discovery",
+      "赚钱项目",
+      "产品机会",
+      "立项分析",
+      "项目可行性分析",
+      "产品路线图",
+      "社会痛点",
+      "GitHub赚钱",
+      "开源商业",
+      "product-market fit",
+      "产品矩阵",
+      "所有项目",
+      "各个项目",
+      "深入分析",
+      "立项",
+      "部署上线",
+      "搞钱复盘",
+      "现有产品复盘"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/product-charter-engine"
+  },
+  {
+    "name": "eve-qm",
+    "description": "Eve QM (Quality Management) — 质量管理体系技能。每月对所有在运行项目进行质量审计， 维护CMMI5质量标准体系执行，识别流程瓶颈并推动改进，生成质量月报（含各项目质量评分排名）。 从1个技能（documentation-quality-audit）扩展为4个技能：跨项目质量审计、质量月报生成、 流程瓶颈检测、CMMI5合规健康检查。\n",
+    "category": "business",
+    "triggers": [
+      "质量审计 / 质量检查 / 质量管理",
+      "质量月报 / 质量报告 / 质量评分排名",
+      "流程瓶颈 / 瓶颈检测 / 流程改进",
+      "CMMI5合规 / CMMI检查 / 质量标准",
+      "跨项目审计 / 审计所有项目",
+      "quality audit / quality report / bottleneck",
+      "CMMI5 compliance / process improvement",
+      "QM / Quality Management",
+      "qms / 质量管理体系",
+      "项目质量评分 / 质量排名 / 项目健康度",
+      "质量门禁 / phase gate quality check",
+      "审计发现 / 缺陷跟踪 / 修复验证",
+      "月度质量巡检 / 每月质量",
+      "run quality audit / check quality"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/eve-qm"
+  },
+  {
+    "name": "eve-scribe",
+    "description": "Eve Scribe — 内容营销专家。整合 doc-generator（文档自动生成引擎）和 content_pipeline（自动内容生成管道）， 实现从项目复盘→高质量文章→多渠道发布的端到端内容营销流水线。 自动从项目交付记录提取亮点、生成案例研究、撰写行业洞察文章，并推送到网站/公众号/社交媒体。\n",
+    "category": "business",
+    "triggers": [
+      "内容营销",
+      "写文章",
+      "生成案例",
+      "项目复盘",
+      "发布内容",
+      "社交媒体",
+      "content pipeline",
+      "content marketing",
+      "案例研究",
+      "博客文章",
+      "Eve Scribe",
+      "内容生成管道"
+    ],
+    "path": "/home/yestin/.hermes/skills/business/eve-scribe"
+  },
+  {
+    "name": "agent-workflow",
+    "description": "Multi-agent workflow orchestration — define roles, decompose tasks, execute sequential/parallel/conditional flows. Includes task dependency DAG for auto-scheduling parallel execution and dynamic conditional routing. Inspired by CrewAI, LangGraph, and Airflow.",
+    "category": "meta",
+    "triggers": [
+      "多Agent协作 / multi-agent collaboration",
+      "团队模式 / team mode",
+      "分配任务 / delegate task",
+      "工作流编排 / workflow orchestration",
+      "角色分工 / role assignment",
+      "task dag",
+      "依赖图",
+      "task dependency",
+      "并行任务",
+      "workflow dag",
+      "conditional",
+      "动态路由",
+      "if else",
+      "workflow branch",
+      "条件分支",
+      "全部 / do everything / all workstreams",
+      "全栈推进 / push all fronts",
+      "batch ops / 批量运维",
+      "multi-workstream / 多工作流并行",
+      "继续推进全部 / continue all",
+      "启动 / start / system activation"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-workflow"
+  },
+  {
+    "name": "grok-image-to-video",
+    "description": "Animate a local image into a short mp4 video through Hermes Web UI using xAI Grok Imagine.",
+    "category": "uncategorized",
+    "triggers": [],
+    "path": "/home/yestin/.hermes/skills/grok-image-to-video"
+  },
+  {
+    "name": "agent-security-posture-audit",
+    "description": "Comprehensive Hermes Agent security posture audit covering 7 dimensions: config hardening, network exposure, credential security, file permissions, secret leakage, profile secrets, cron secret exposure. Generates a CRITICAL/WARN/INFO graded report with fix commands.",
+    "category": "security",
+    "triggers": [
+      "security audit",
+      "security posture",
+      "安全检查",
+      "安全加固",
+      "hardening audit",
+      "config security check",
+      "全面安全审查",
+      "security hardening",
+      "audit security posture",
+      "agent security check",
+      "cors",
+      "网络暴露",
+      "port binding",
+      "端口绑定",
+      "network exposure"
+    ],
+    "path": "/home/yestin/.hermes/skills/agent-security-posture-audit"
+  },
+  {
+    "name": "req-analyzer",
+    "description": "Requirements analysis & traceability — user stories, acceptance criteria, RTM generation. BRD/PRD analysis with gap detection. CMMI5-grade requirements engineering.",
+    "category": "sdlc",
+    "triggers": [
+      "需求分析",
+      "用户故事",
+      "PRD",
+      "BRD",
+      "requirements",
+      "user story",
+      "验收标准",
+      "需求追溯"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/req-analyzer"
+  },
+  {
+    "name": "arch-designer",
+    "description": "Architecture design engine — C4 model diagrams, ADR generation, technical decision framework, Mermaid/PlantUML output. TOGAF-aligned, enterprise-grade.",
+    "category": "sdlc",
+    "triggers": [
+      "架构设计",
+      "系统设计",
+      "技术选型",
+      "ADR",
+      "architecture",
+      "C4 model",
+      "design decision",
+      "技术方案",
+      "数据库",
+      "schema",
+      "migration",
+      "ER图",
+      "database",
+      "SQL",
+      "DDL",
+      "表设计"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/arch-designer"
+  },
+  {
+    "name": "refactor-assist",
+    "description": "重构引擎 — 代码坏味检测、复杂度分析、提取方法/类建议、多文件重构编排。支持单文件重构到跨文件批量重构全链路，含影响分析、变更排序、批量执行与验证。",
+    "category": "cmmi5",
+    "triggers": [
+      "refactor",
+      "重构",
+      "重构建议",
+      "code smell",
+      "代码坏味",
+      "improve code",
+      "多文件重构",
+      "批量重构",
+      "multi-file refactor",
+      "跨文件重构"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/refactor-assist"
+  },
+  {
+    "name": "srs-ieee830-generator",
+    "description": "Generate an IEEE 830-standard SRS document as a styled BookStack HTML page with Mermaid use case diagrams and iterative domain-correction refinement. Covers the full flow from blank template → Python generator → BookStack upload → revision cycle.",
+    "category": "sdlc",
+    "triggers": [
+      "需求规格说明书 / SRS / IEEE 830 / software requirements specification",
+      "生成SRS文档 / generate SRS / SRS template",
+      "SRS+BookStack / SRS BookStack页面 / SRS需求文档",
+      "按模版生成需求文档 / fill SRS template with project",
+      "UML用例图SRS / use case diagram in SRS / 角色功能映射",
+      "SRS迭代修正 / SRS revision cycle / domain correction"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/srs-ieee830-generator"
+  },
+  {
+    "name": "cicd-builder",
+    "description": "CI/CD pipeline builder — GitHub Actions, Jenkins, GitLab CI generation. Build-test-deploy automation with quality gates, Docker support, and environment promotion.",
+    "category": "sdlc",
+    "triggers": [
+      "CI/CD",
+      "pipeline",
+      "部署",
+      "GitHub Actions",
+      "Jenkins",
+      "deploy",
+      "持续集成",
+      "持续部署"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/cicd-builder"
+  },
+  {
+    "name": "doc-generator",
+    "description": "Documentation auto-generator — API docs (OpenAPI), README, architecture docs, changelogs. Extracts from code + comments, outputs Markdown/HTML/PDF.",
+    "category": "sdlc",
+    "triggers": [
+      "文档",
+      "API文档",
+      "README",
+      "documentation",
+      "doc",
+      "OpenAPI"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/doc-generator"
+  },
+  {
+    "name": "ops-monitor",
+    "description": "Operations monitoring — health checks, log analysis, metrics dashboards, alerting rules. Prometheus/Grafana-ready, Docker healthcheck integration.",
+    "category": "sdlc",
+    "triggers": [
+      "监控",
+      "运维",
+      "告警",
+      "健康检查",
+      "monitoring",
+      "ops",
+      "prometheus",
+      "grafana",
+      "日志"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/ops-monitor"
+  },
+  {
+    "name": "db-designer",
+    "description": "Database design — schema, ERD, migrations, query optimization. CMMI5-grade data engineering with full traceability.",
+    "category": "sdlc",
+    "triggers": [
+      "数据库设计",
+      "数据库",
+      "schema",
+      "ER图",
+      "migration",
+      "SQL优化",
+      "DDL",
+      "表设计",
+      "数据模型",
+      "database design",
+      "query optimization",
+      "索引优化"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/db-designer"
+  },
+  {
+    "name": "backend-infra-hardening",
+    "description": "后端基础设施加固模式 — 将工作原型从内存/服务内存储迁移至持久化数据库(SQLite/SQLAlchemy ORM)，配套CI/CD流水线(GitHub Actions + ruff + mypy + bandit + pytest)、Docker容器化(多阶段构建 + docker-compose + 生产启动脚本)、开发者工具链(Makefile + pyproject.toml + .gitignore)。覆盖全流程从P3-0计划到P3-7归档。",
+    "category": "sdlc",
+    "triggers": [
+      "基础设施加固",
+      "infrastructure hardening",
+      "生产就绪",
+      "production readiness",
+      "从原型到生产",
+      "prototype to production",
+      "后端持久化",
+      "DB persistence",
+      "in-memory to database",
+      "SQLAlchemy migration",
+      "添加数据库",
+      "add database persistence",
+      "后端CI/CD",
+      "backend cicd",
+      "backend docker",
+      "生产部署准备",
+      "backend production ready",
+      "infra hardening",
+      "systemd service",
+      "systemctl",
+      "生产部署",
+      "production deploy",
+      "生产就绪部署"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/backend-infra-hardening"
+  },
+  {
+    "name": "supplier-manager",
+    "description": "Supplier Agreement Management (SAM) — formal third-party dependency lifecycle management. Evaluate suppliers, monitor SLAs, track license changes, assess supply chain risk. CMMI5 SAM process area at ML3+.",
+    "category": "sdlc",
+    "triggers": [
+      "供应商管理",
+      "supplier agreement",
+      "第三方依赖管理",
+      "SLA monitoring",
+      "vendor risk",
+      "supply chain governance",
+      "第三方评估"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/supplier-manager"
+  },
+  {
+    "name": "test-engine",
+    "description": "Automated testing engine — unit/integration/E2E test generation, TDD workflow, coverage analysis, test strategy. pytest-backed, mutation testing ready.",
+    "category": "sdlc",
+    "triggers": [
+      "测试",
+      "单元测试",
+      "test",
+      "pytest",
+      "TDD",
+      "覆盖率",
+      "集成测试",
+      "E2E"
+    ],
+    "path": "/home/yestin/.hermes/skills/sdlc/test-engine"
+  },
+  {
+    "name": "sql-optimizer",
+    "description": "SQL查询优化 — 分析查询计划、识别慢查询、建议索引优化、模式重构。支持PostgreSQL/MySQL/SQLite。触发词：\"sql optimize\"/\"query optimize\"/\"慢查询\"/\"sql performance\"/\"explain analyze\"/\"索引优化\"/\"query tuning\"。",
+    "category": "productivity",
+    "triggers": [
+      "sql optimize",
+      "query optimize",
+      "慢查询",
+      "sql performance",
+      "explain analyze",
+      "索引优化",
+      "query tuning",
+      "sql tuning",
+      "index analysis"
+    ],
+    "path": "/home/yestin/.hermes/skills/productivity/sql-optimizer"
+  },
+  {
+    "name": "batch-executor",
+    "description": "批量并行任务执行引擎 (Pattern F) — 多任务编排/并发执行/进度追踪/错误聚合/超时管理/结果收集。支持任务依赖图、速率限制、重试策略和报告生成。对标 Matt Pocock batch-executor 最佳实践。",
+    "category": "productivity",
+    "triggers": [
+      "batch",
+      "批量执行",
+      "并行任务",
+      "并发",
+      "parallel",
+      "批量处理",
+      "任务编排",
+      "批量运行",
+      "批量脚本",
+      "mass execution",
+      "Pattern F",
+      "多任务",
+      "task queue",
+      "workflow batch"
+    ],
+    "path": "/home/yestin/.hermes/skills/productivity/batch-executor"
+  },
+  {
+    "name": "regex-builder",
+    "description": "正则表达式构建与测试 — 交互式构建、测试用例验证、常见模式库、复杂正则分解、性能评估。触发词：\"regex\"/\"正则\"/\"regular expression\"/\"regex test\"/\"正则表达式\"/\"pattern match\"/\"regex build\"。",
+    "category": "productivity",
+    "triggers": [
+      "regex",
+      "正则",
+      "regular expression",
+      "regex test",
+      "正则表达式",
+      "pattern match",
+      "regex build",
+      "regex debug",
+      "正则调试"
+    ],
+    "path": "/home/yestin/.hermes/skills/productivity/regex-builder"
+  },
+  {
+    "name": "code-formatter",
+    "description": "多语言代码格式化/规范化 — 统一代码风格、配置格式化工具(prettier/black/rustfmt/gofmt等)、批量格式化、CI集成。触发词：\"format code\"/\"格式化代码\"/\"prettier\"/\"代码风格\"/\"code style\"/\"lint format\"/\"format all\"。",
+    "category": "productivity",
+    "triggers": [
+      "format code",
+      "格式化代码",
+      "prettier",
+      "代码风格",
+      "code style",
+      "lint format",
+      "format all",
+      "autoformat",
+      "code formatting"
+    ],
+    "path": "/home/yestin/.hermes/skills/productivity/code-formatter"
+  },
+  {
+    "name": "api-tester",
+    "description": "REST/GraphQL API测试工具 — 从终端发送HTTP请求、验证响应、生成测试用例、构造API文档。支持curl/httpie/wget多后端。触发词：\"api test\"/\"rest test\"/\"api调试\"/\"http request\"/\"curl helper\"/\"graphql test\"/\"端点测试\"。",
+    "category": "productivity",
+    "triggers": [
+      "api test",
+      "rest test",
+      "api调试",
+      "http request",
+      "curl helper",
+      "graphql test",
+      "端点测试",
+      "test endpoint"
+    ],
+    "path": "/home/yestin/.hermes/skills/productivity/api-tester"
+  }
+]
